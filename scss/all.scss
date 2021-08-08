@@ -1,0 +1,14 @@
+/*-- 引入bootstrap --*/
+@import "bootstrap/scss/functions";
+@import "helpers/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/bootstrap";
+/*-- setting --*/
+@import "setting/util";
+@import "setting/mixin";
+/*-- setting --*/
+@import "config/base.scss";
+/*-- layout --*/
+@import "layout/navbar";
+/*-- pages --*/
+@import "pages/index";

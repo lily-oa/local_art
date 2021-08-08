@@ -1,0 +1,49 @@
+// navbar
+.nav_icon{
+  width: 24px;
+  height: 24px;
+}
+.nav_badge{
+  width: 22px;
+  height: 18px;
+  font-size: 12px;
+}
+
+// pad
+@include pad{
+  nav .container{
+    max-width: 940px;
+  }
+}
+
+// mobile
+.nav_menu{
+  @include mobile{
+    position: initial !important;
+  }
+  @include mobile-s{
+    position: initial !important;
+  }
+}
+
+.badge{
+  @include mobile{
+    position: initial !important;
+  }
+  @include mobile-s{
+    position: initial !important;
+  }
+}
+@include mobile{
+  nav .container{
+    max-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@include mobile-s{
+  .nva_item {
+    display: none;
+    
+  }
+}
