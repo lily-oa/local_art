@@ -10,8 +10,8 @@
     margin-bottom: 0;
     overflow-x: auto;
     flex-wrap: nowrap !important;
-  }
-  .navbarDown_detail{
-    font-style: $h8-font-size;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }

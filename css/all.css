@@ -15095,9 +15095,8 @@ body {
     -ms-flex-wrap: nowrap !important;
         flex-wrap: nowrap !important;
   }
-
-  .navbarDown_detail {
-    font-style: 0.75rem;
+  .sort-list::-webkit-scrollbar {
+    display: none;
   }
 }
 /*-- components --*/
