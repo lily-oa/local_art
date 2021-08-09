@@ -8925,6 +8925,14 @@ textarea.form-control-lg {
   font-size: 0.75rem !important;
 }
 
+.fs-9 {
+  font-size: calc(1.2625rem + 0.15vw) !important;
+}
+
+.fs-10 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -14507,6 +14515,10 @@ textarea.form-control-lg {
   .fs-7 {
     font-size: 1.75rem !important;
   }
+
+  .fs-9 {
+    font-size: 1.375rem !important;
+  }
 }
 @media print {
   .d-print-inline {
@@ -14599,26 +14611,32 @@ body {
     margin-right: 24px;
   }
 }
-@media (max-width: 375px) {
-  .nav_menu {
-    position: initial !important;
-  }
-}
 
 @media (max-width: 767px) {
   .badge {
     position: initial !important;
   }
 }
-@media (max-width: 375px) {
-  .badge {
-    position: initial !important;
+
+@media (max-width: 767px) {
+  .navbar_title {
+    font-size: 1.375rem;
   }
 }
-
 @media (max-width: 375px) {
-  .nva_item {
-    display: none;
+  nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  nav .navbar .navbar_title {
+    padding-right: 0;
+  }
+  nav .navbar .nav_menu {
+    margin-right: 0;
   }
 }
 /*-- components --*/

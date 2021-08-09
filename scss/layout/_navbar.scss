@@ -1,43 +1,53 @@
 // navbar
-.nav_icon{
+.nav_icon {
   width: 24px;
   height: 24px;
 }
-.nav_badge{
+
+.nav_badge {
   width: 22px;
   height: 18px;
   font-size: 12px;
 }
 
-// pad
-@include pad{
-  nav .container{
+// pad (992)
+@include pad {
+  nav .container {
     max-width: 940px;
   }
 }
 
-// mobile
-.nav_menu{
-  @include mobile{
+// mobile (767)
+.nav_menu {
+  @include mobile {
     margin-right: 24px;
   }
-  @include mobile-s{
+}
+
+.badge {
+  @include mobile {
     position: initial !important;
   }
 }
 
-.badge{
-  @include mobile{
-    position: initial !important;
-  }
-  @include mobile-s{
-    position: initial !important;
+@include mobile {
+  .navbar_title {
+    font-size: $h9-font-size;
   }
 }
 
-@include mobile-s{
-  .nva_item {
-    display: none;
-    
+// mobile-s (375)
+@include mobile-s {
+  nav {
+    .navbar {
+      display: flex;
+      justify-content: flex-start !important;
+      .navbar_title {
+        padding-right: 0;
+      }
+      .nav_menu {
+        margin-right: 0;
+      }
+    }
   }
 }
