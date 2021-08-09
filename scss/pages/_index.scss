@@ -40,4 +40,23 @@
   }
 }
 
-// section
+// section ticket
+.card_pic{
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
+.card_date{
+  writing-mode: vertical-lr; //垂直字體
+
+}
+.card_icon{
+  width: 20px;
+  height: 20px;
+  &:hover{
+    background: $wordColor_1;
+  }
+}
+// .card_hover:hover{
+//   background: red !important;
+// }
