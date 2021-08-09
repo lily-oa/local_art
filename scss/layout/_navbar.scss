@@ -36,10 +36,9 @@
 }
 @include mobile{
   .nav_menu{
-    margin-right: 24px;
+    margin-right: 8px;
   }
 }
-
 @include mobile-s{
   .nva_item {
     display: none;

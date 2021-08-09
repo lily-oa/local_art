@@ -4,8 +4,9 @@
   background-size: cover;
   padding: 0;
   margin: 0;
+  &_btn{
+    padding: 10px 48px;
+  }
 }
 
-.banner_btn {
-  padding: 10px 48px;
-}
+
