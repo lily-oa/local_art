@@ -15083,7 +15083,7 @@ body {
     margin-right: 0;
   }
 }
-nav ul > .navbarDown_item .navbarDown_detail:hover {
+.navbarDown_detail:hover {
   color: #630834 !important;
 }
 
