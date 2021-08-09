@@ -14557,7 +14557,7 @@ textarea.form-control-lg {
 /*-- setting --*/
 /*  設定  */
 /*  工具箱  */
-/*-- setting --*/
+/*-- config--*/
 /*  全域  */
 img {
   max-width: 100%;
@@ -14617,9 +14617,8 @@ body {
 }
 
 @media (max-width: 767) {
-  nav .container {
-    max-width: 100%;
-    padding: 0 30px;
+  nav .message {
+    padding-left: 26px;
   }
 }
 @media (max-width: 375) {
@@ -14627,4 +14626,14 @@ body {
     display: none;
   }
 }
+/*-- components --*/
+.banner {
+  background: url("https://images.unsplash.com/photo-1506846540181-347008948fff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80") no-repeat center center;
+  height: 480px;
+  width: calc(100);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
 /*-- pages --*/
