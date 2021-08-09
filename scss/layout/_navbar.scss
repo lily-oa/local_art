@@ -19,7 +19,7 @@
 // mobile
 .nav_menu{
   @include mobile{
-    position: initial !important;
+    margin-right: 24px;
   }
   @include mobile-s{
     position: initial !important;
@@ -34,11 +34,7 @@
     position: initial !important;
   }
 }
-@include mobile{
-  .nav_menu{
-    margin-right: 8px;
-  }
-}
+
 @include mobile-s{
   .nva_item {
     display: none;

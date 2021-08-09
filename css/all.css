@@ -14596,7 +14596,7 @@ body {
 }
 @media (max-width: 767px) {
   .nav_menu {
-    position: initial !important;
+    margin-right: 24px;
   }
 }
 @media (max-width: 375px) {
@@ -14616,11 +14616,6 @@ body {
   }
 }
 
-@media (max-width: 767px) {
-  .nav_menu {
-    margin-right: 8px;
-  }
-}
 @media (max-width: 375px) {
   .nva_item {
     display: none;
