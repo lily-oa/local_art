@@ -14617,8 +14617,8 @@ body {
 }
 
 @media (max-width: 767) {
-  nav .message {
-    padding-left: 26px;
+  .nav_menu {
+    margin-right: 24px;
   }
 }
 @media (max-width: 375) {
