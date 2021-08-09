@@ -57,6 +57,27 @@
     background: $wordColor_1;
   }
 }
-// .card_hover:hover{
-//   background: red !important;
-// }
+
+// pad
+@include pad{
+  .container{
+    max-width: 940px;
+  }
+  section .card-text{
+    font-size: $h11-font-size !important;
+  }
+}
+
+// mobile
+@include mobile{
+  .container{
+    max-width: 100%;
+    .card_pic{
+      width: 100%;
+      height: auto;
+    }
+    .ticket{
+      padding: 0 !important;
+    }
+  }
+}
