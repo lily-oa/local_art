@@ -4,6 +4,14 @@
 }
 
 // mobile-s
-// @include mobile-s{
-  
-// }
+@include mobile-s{
+  .sort-list{
+    padding: 14px 0;
+    margin-bottom: 0;
+    overflow-x: auto;
+    flex-wrap: nowrap !important;
+  }
+  .navbarDown_detail{
+    font-style: $h8-font-size;
+  }
+}
