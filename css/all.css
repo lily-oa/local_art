@@ -14594,34 +14594,34 @@ body {
     max-width: 940px;
   }
 }
-@media (max-width: 767) {
+@media (max-width: 767px) {
   .nav_menu {
     position: initial !important;
   }
 }
-@media (max-width: 375) {
+@media (max-width: 375px) {
   .nav_menu {
     position: initial !important;
   }
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
   .badge {
     position: initial !important;
   }
 }
-@media (max-width: 375) {
+@media (max-width: 375px) {
   .badge {
     position: initial !important;
   }
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
   .nav_menu {
     margin-right: 24px;
   }
 }
-@media (max-width: 375) {
+@media (max-width: 375px) {
   .nva_item {
     display: none;
   }

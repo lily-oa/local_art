@@ -8,13 +8,13 @@
 
 // mobile  767
 @mixin mobile {
-  @media(max-width:767){
+  @media(max-width:767px){
     @content
   }
 };
 // mobile-s 375
 @mixin mobile-s {
-  @media(max-width:375){
+  @media(max-width:375px){
     @content
   }
 };
