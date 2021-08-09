@@ -14641,6 +14641,7 @@ body {
 }
 /*-- components --*/
 /*-- pages --*/
+/*-- banner --*/
 .banner {
   height: 480px;
   width: calc(100);
@@ -14650,4 +14651,34 @@ body {
 }
 .banner_btn {
   padding: 10px 48px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    min-width: 100%;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+}
+@media (max-width: 375px) {
+  header .banner_data {
+    padding-left: 0;
+    padding-bottom: 80px;
+  }
+  header .banner_data .banner_twoBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header .banner_data .banner_twoBtn .banner_btn {
+    padding: 8px 40px;
+  }
 }

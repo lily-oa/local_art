@@ -1,3 +1,4 @@
+/*-- banner --*/
 .banner {
   height: 480px;
   width: calc(100);
@@ -9,4 +10,32 @@
   }
 }
 
+// pad
+@include pad{
+  .container {
+    max-width: 940px;
+  }
+}
 
+// mobile
+@include mobile{
+  .container{
+    min-width: 100%;
+    justify-content: flex-end !important;
+  }
+}
+
+// mobile-s
+@include mobile-s{
+  header .banner_data{
+    padding-left: 0;
+    padding-bottom: 80px;
+    .banner_twoBtn{
+      display: flex;
+      justify-content: space-around;
+      .banner_btn{
+        padding: 8px 40px;
+      }
+    }
+  }
+}
