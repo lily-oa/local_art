@@ -65,39 +65,21 @@
     </div>
   </header>
 
-  <!--navbarDown-->
-  <div class="container-fluid border border-wordColor_1">
-    <nav class="navbarDown ">
-      <ul class="nav justify-content-center sort-list">
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">音樂</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">戲劇</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">設計</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">藝術</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">美食</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">旅遊</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">電影</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">親子</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbarDown_detail nav-link text-dark py-9" href="#">期間限定</a>
-        </li>
-      </ul>
-    </nav>
+  <!--nav-scroller 可以捲動的導覽列-->
+  <div class="nav-scroller">
+    <div class="container-fluid border border-wordColor_1" aria-label="Secondary navigation">
+      <nav class="nav justify-content-center">
+        <a class="navbarDown_detail nav-link text-dark py-9 active" aria-current="page" href="#">音樂</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">戲劇</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">設計</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">藝術</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">美食</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">旅遊</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">電影</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">親子</a>
+        <a class="navbarDown_detail nav-link text-dark py-9" href="#">期間限定</a>
+      </nav>
+    </div>
   </div>
 
   <!--section ticket-->
@@ -112,15 +94,16 @@
           <div class="card mb-11 bg-bgColor_1" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4 col-lg-4">
-                <img 
-                class="card_pic"
-                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true" alt="">
+                <img class="card_pic"
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+                  alt="">
               </div>
               <div class="col-md-7 col-lg-7">
                 <div class="card-body py-13">
                   <h3 class="h5 card-title">2020 台味設計展</h3>
                   <p class="fs-5 mb-2">$350</p>
-                  <p class="card-text fs-5 mb-6">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
+                  <p class="card-text fs-5 mb-6">
+                    一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
                   <div class="card_btn d-flex">
                     <button type="button" class=" btn btn-primary me-2">購買票券</button>
                     <button type="button" class=" btn btn-outline-primary">詳細資訊</button>
@@ -141,15 +124,16 @@
           <div class="card mb-11 bg-bgColor_1" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4 col-lg-4">
-                <img 
-                class="card_pic"
-                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true" alt="">
+                <img class="card_pic"
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true"
+                  alt="">
               </div>
               <div class="col-md-7 col-lg-7">
                 <div class="card-body py-13">
                   <h3 class="h5 card-title">No.22 線上設計展</h3>
                   <p class="fs-5 mb-2">$350</p>
-                  <p class="card-text fs-5 mb-6">這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</p>
+                  <p class="card-text fs-5 mb-6">
+                    這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</p>
                   <div class="card_btn d-flex">
                     <button type="button" class=" btn btn-primary me-2">購買票券</button>
                     <button type="button" class=" btn btn-outline-primary">詳細資訊</button>
@@ -170,15 +154,16 @@
           <div class="card mb-11 bg-bgColor_1" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4 col-lg-4">
-                <img 
-                class="card_pic"
-                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true" alt="">
+                <img class="card_pic"
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true"
+                  alt="">
               </div>
               <div class="col-md-7 col-lg-7">
                 <div class="card-body py-13">
                   <h3 class="h5 card-title">高雄設計節</h3>
                   <p class="fs-5 mb-2">$350</p>
-                  <p class="card-text fs-5 mb-6">設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+                  <p class="card-text fs-5 mb-6">
+                    設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
                   <div class="card_btn d-flex">
                     <button type="button" class=" btn btn-primary me-2">購買票券</button>
                     <button type="button" class=" btn btn-outline-primary">詳細資訊</button>
