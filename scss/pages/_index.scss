@@ -22,14 +22,24 @@
   .container{
     min-width: 100%;
     justify-content: flex-end !important;
+    .banner_data{
+      padding-bottom: 167px !important;
+      padding-left: 80px !important;
+    }
   }
 }
 
 // mobile-s
 @include mobile-s{
-  header .banner_data{
-    padding-left: 0;
-    padding-bottom: 80px;
+  .sectionPart {
+    padding-top: 20px !important;
+    .ticket_firstTitle{
+      margin-bottom: 8px !important;
+    }
+  }
+  .container .banner_data{
+    padding-left: 0 !important;
+    padding-bottom: 80px !important;
     .banner_twoBtn{
       display: flex;
       justify-content: space-around;
@@ -39,7 +49,7 @@
     }
   }
 }
-
+/*----------------------------------------*/
 // section ticket
 .card_pic{
   height: 350px;
@@ -68,7 +78,7 @@
   }
 }
 
-// mobile
+// mobile(767)
 @include mobile{
   .container{
     max-width: 100%;
@@ -79,5 +89,40 @@
     .ticket{
       padding: 0 !important;
     }
+    .card-body{
+      padding: 8px 15px 24px 15px !important;
+    }
+    .card-title{
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+    }
   }
+}
+
+// mobile-s(375)
+@include mobile-s{
+  .container{
+    .card-body{
+      padding: 6px 15px 20px 15px ;
+    }
+    .card-title{
+      margin-top: 10px;
+      font-size: $h11-font-size;
+      .card_sDate{
+        font-size: $h12-font-size;
+        margin-top: 8px;
+        margin-left: 0 !important;
+      }
+    }
+    .card_sIcon{
+      width: 6x;
+      height: 6px;
+    }
+  }
+}
+/*----------------------------------------*/
+// section back
+.back{
+  padding: 60px 0 40px 0;
 }

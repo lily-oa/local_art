@@ -9309,6 +9309,10 @@ textarea.form-control-lg {
   font-size: 1.125rem !important;
 }
 
+.fs-12 {
+  font-size: 0.625rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -15907,22 +15911,56 @@ textarea.form-control-lg {
 /*  工具箱  */
 /*-- config--*/
 /*  全域  */
+body {
+  font-family: "Roboto", "Noto Sans SC", sans-serif;
+  line-height: 1.5;
+  padding: 0 15px;
+  overflow-x: hidden;
+  /* 確保AOS套件在RWD不會出現X軸 */
+}
+
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
 
 a {
   display: block;
+  text-decoration: none;
 }
 
-ul li {
+ul, li {
   list-style: none;
+  margin-right: 0;
+  padding: 0 !important;
+  margin-bottom: 0;
 }
 
-body {
-  line-height: 1.5;
-  padding: 0 15px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 /*-- layout --*/
@@ -16027,23 +16065,35 @@ body {
         -ms-flex-pack: end !important;
             justify-content: flex-end !important;
   }
+  .container .banner_data {
+    padding-bottom: 167px !important;
+    padding-left: 80px !important;
+  }
 }
 @media (max-width: 375px) {
-  header .banner_data {
-    padding-left: 0;
-    padding-bottom: 80px;
+  .sectionPart {
+    padding-top: 20px !important;
   }
-  header .banner_data .banner_twoBtn {
+  .sectionPart .ticket_firstTitle {
+    margin-bottom: 8px !important;
+  }
+
+  .container .banner_data {
+    padding-left: 0 !important;
+    padding-bottom: 80px !important;
+  }
+  .container .banner_data .banner_twoBtn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  header .banner_data .banner_twoBtn .banner_btn {
+  .container .banner_data .banner_twoBtn .banner_btn {
     padding: 8px 40px;
   }
 }
+/*----------------------------------------*/
 .card_pic {
   height: 350px;
   width: 350px;
@@ -16085,4 +16135,40 @@ body {
   .container .ticket {
     padding: 0 !important;
   }
+  .container .card-body {
+    padding: 8px 15px 24px 15px !important;
+  }
+  .container .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+@media (max-width: 375px) {
+  .container .card-body {
+    padding: 6px 15px 20px 15px;
+  }
+  .container .card-title {
+    margin-top: 10px;
+    font-size: 1.125rem;
+  }
+  .container .card-title .card_sDate {
+    font-size: 0.625rem;
+    margin-top: 8px;
+    margin-left: 0 !important;
+  }
+  .container .card_sIcon {
+    width: 6x;
+    height: 6px;
+  }
+}
+/*----------------------------------------*/
+.back {
+  padding: 60px 0 40px 0;
 }
