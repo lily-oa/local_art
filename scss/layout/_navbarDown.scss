@@ -14,7 +14,8 @@
     display: flex;
     flex-wrap: nowrap;
     padding-bottom: 1rem;  /* 隱藏下方捲軸 */
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
+    justify-content: unset;
   }
 }

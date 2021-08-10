@@ -15996,8 +15996,11 @@ body {
         flex-wrap: nowrap;
     padding-bottom: 1rem;
     /* 隱藏下方捲軸 */
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
   }
 }
 /*-- components --*/
