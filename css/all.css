@@ -31,6 +31,7 @@
   --bs-bgColor_1: #EFEFEF;
   --bs-bgColor_2: #190014CC;
   --bs-wordColor_1: #707070;
+  --bs-thirdColor: #3B2433;
   --bs-font-sans-serif: "Roboto", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -4158,6 +4159,38 @@ textarea.form-control-lg {
   border-color: #707070;
 }
 
+.btn-thirdColor {
+  color: #fff;
+  background-color: #3B2433;
+  border-color: #3B2433;
+}
+.btn-thirdColor:hover {
+  color: #fff;
+  background-color: #321f2b;
+  border-color: #2f1d29;
+}
+.btn-check:focus + .btn-thirdColor, .btn-thirdColor:focus {
+  color: #fff;
+  background-color: #321f2b;
+  border-color: #2f1d29;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(88, 69, 82, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(88, 69, 82, 0.5);
+}
+.btn-check:checked + .btn-thirdColor, .btn-check:active + .btn-thirdColor, .btn-thirdColor:active, .btn-thirdColor.active, .show > .btn-thirdColor.dropdown-toggle {
+  color: #fff;
+  background-color: #2f1d29;
+  border-color: #2c1b26;
+}
+.btn-check:checked + .btn-thirdColor:focus, .btn-check:active + .btn-thirdColor:focus, .btn-thirdColor:active:focus, .btn-thirdColor.active:focus, .show > .btn-thirdColor.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(88, 69, 82, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(88, 69, 82, 0.5);
+}
+.btn-thirdColor:disabled, .btn-thirdColor.disabled {
+  color: #fff;
+  background-color: #3B2433;
+  border-color: #3B2433;
+}
+
 .btn-outline-primary {
   color: #630834;
   border-color: #630834;
@@ -4452,6 +4485,33 @@ textarea.form-control-lg {
 }
 .btn-outline-wordColor_1:disabled, .btn-outline-wordColor_1.disabled {
   color: #707070;
+  background-color: transparent;
+}
+
+.btn-outline-thirdColor {
+  color: #3B2433;
+  border-color: #3B2433;
+}
+.btn-outline-thirdColor:hover {
+  color: #fff;
+  background-color: #3B2433;
+  border-color: #3B2433;
+}
+.btn-check:focus + .btn-outline-thirdColor, .btn-outline-thirdColor:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(59, 36, 51, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(59, 36, 51, 0.5);
+}
+.btn-check:checked + .btn-outline-thirdColor, .btn-check:active + .btn-outline-thirdColor, .btn-outline-thirdColor:active, .btn-outline-thirdColor.active, .btn-outline-thirdColor.dropdown-toggle.show {
+  color: #fff;
+  background-color: #3B2433;
+  border-color: #3B2433;
+}
+.btn-check:checked + .btn-outline-thirdColor:focus, .btn-check:active + .btn-outline-thirdColor:focus, .btn-outline-thirdColor:active:focus, .btn-outline-thirdColor.active:focus, .btn-outline-thirdColor.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(59, 36, 51, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(59, 36, 51, 0.5);
+}
+.btn-outline-thirdColor:disabled, .btn-outline-thirdColor.disabled {
+  color: #3B2433;
   background-color: transparent;
 }
 
@@ -5997,6 +6057,15 @@ textarea.form-control-lg {
   color: #363636;
 }
 
+.alert-thirdColor {
+  color: #23161f;
+  background-color: #d8d3d6;
+  border-color: #c4bdc2;
+}
+.alert-thirdColor .alert-link {
+  color: #1c1219;
+}
+
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -6457,6 +6526,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #434343;
   border-color: #434343;
+}
+
+.list-group-item-thirdColor {
+  color: #23161f;
+  background-color: #d8d3d6;
+}
+.list-group-item-thirdColor.list-group-item-action:hover, .list-group-item-thirdColor.list-group-item-action:focus {
+  color: #23161f;
+  background-color: #c2bec1;
+}
+.list-group-item-thirdColor.list-group-item-action.active {
+  color: #fff;
+  background-color: #23161f;
+  border-color: #23161f;
 }
 
 .btn-close {
@@ -7597,6 +7680,13 @@ textarea.form-control-lg {
   color: #5a5a5a;
 }
 
+.link-thirdColor {
+  color: #3B2433;
+}
+.link-thirdColor:hover, .link-thirdColor:focus {
+  color: #2f1d29;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -7998,6 +8088,10 @@ textarea.form-control-lg {
 
 .border-wordColor_1 {
   border-color: #707070 !important;
+}
+
+.border-thirdColor {
+  border-color: #3B2433 !important;
 }
 
 .border-white {
@@ -9452,6 +9546,10 @@ textarea.form-control-lg {
   color: #707070 !important;
 }
 
+.text-thirdColor {
+  color: #3B2433 !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -9518,6 +9616,10 @@ textarea.form-control-lg {
 
 .bg-wordColor_1 {
   background-color: #707070 !important;
+}
+
+.bg-thirdColor {
+  background-color: #3B2433 !important;
 }
 
 .bg-body {
@@ -15908,6 +16010,12 @@ textarea.form-control-lg {
 }
 /*-- setting --*/
 /*  設定  */
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*  工具箱  */
 /*-- config--*/
 /*  全域  */
@@ -16171,4 +16279,70 @@ p {
 /*----------------------------------------*/
 .back {
   padding: 60px 0 40px 0;
+}
+.back_bgpic {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true");
+  height: 482px;
+  background-size: cover;
+}
+.back_bg2 {
+  background-color: rgba(59, 36, 51, 0.8);
+  height: 482px;
+  width: 445px;
+}
+.back_people {
+  width: 128px;
+  height: 128px;
+}
+.back_btn {
+  padding: 10px 38px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .container .back_bg2 {
+    width: 100%;
+  }
+  .container .back {
+    padding: 24px 0 0 0;
+  }
+}
+/*----------------------------------------*/
+.lick_pic {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+  .container .lick_pic {
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .container .lick_title {
+    margin-bottom: 8px !important;
+  }
+  .container .lick_item {
+    margin-bottom: 16px;
+  }
+}
+/*----------------------------------------*/
+.subscribe_bgPic {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 400px;
 }

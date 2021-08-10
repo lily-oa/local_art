@@ -125,4 +125,78 @@
 // section back
 .back{
   padding: 60px 0 40px 0;
+  &_bgpic{
+    background: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true');
+    height: 482px;
+    background-size: cover;
+  }
+  &_bg2{
+    background-color: rgba($color: $thirdColor, $alpha: .8);
+    height: 482px;
+    width: 445px;
+  }
+  &_people{
+    width: 128px;
+    height: 128px;
+  }
+  &_btn{
+    padding: 10px 38px;
+  }
+}
+
+// pad(992)
+@include pad{
+  .container{
+    max-width: 940px;
+  }
+}
+
+// mobile(767)
+@include mobile{
+  .container{
+    max-width: 100%;
+    .back_bg2{
+      width: 100%;
+    }
+    .back{
+      padding: 24px 0 0 0;
+    }
+  }
+}
+
+/*----------------------------------------*/
+// section lick
+.lick_pic{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+// pad(992)
+@include pad{
+  .container{
+    max-width: 940px;
+    .lick_pic{
+      height: 400px;
+    }
+  }
+}
+
+// mobile(767)
+@include mobile{
+  .container{
+    max-width: 100%;
+    .lick_title{
+      margin-bottom: 8px !important;
+    }
+    .lick_item{
+      margin-bottom: 16px;
+    }
+  }
+}
+
+/*----------------------------------------*/
+.subscribe_bgPic{
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true');
+  height: 400px;
 }

@@ -12,6 +12,12 @@
     @content
   }
 };
+// mobile-m 576
+@mixin mobile-m {
+  @media(max-width:576px){
+    @content
+  }
+};
 // mobile-s 375
 @mixin mobile-s {
   @media(max-width:375px){
