@@ -3,11 +3,11 @@
     color: $primary !important;
 }
 
-// mobile-s
+// mobile-s(375)
 @include mobile-s{
   .nav-scroller{
-    height: 2.75rem;        /* 隱藏下方捲軸 */
-    overflow-y: hidden;
+    height: 2.75rem;        
+    overflow-y: hidden;     /* 隱藏下方捲軸 */
     border-bottom: 1px solid $wordColor_1;  /*下底線*/
   }
   .nav-scroller .nav{
@@ -15,7 +15,6 @@
     flex-wrap: nowrap;
     padding-bottom: 1rem;  /* 隱藏下方捲軸 */
     overflow-x: auto;
-    white-space: nowrap;
-    justify-content: unset;
+    white-space: nowrap;  /* 決定如何處理元素內的空白字元 */
   }
 }
