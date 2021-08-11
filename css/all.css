@@ -16147,6 +16147,91 @@ p {
     /* 決定如何處理元素內的空白字元 */
   }
 }
+.subscribe_bgPic {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 400px;
+}
+
+.subscribe_title {
+  line-height: 1.5;
+}
+
+.subscribe_mail {
+  width: 350px;
+}
+
+.subscribe_btn {
+  background: #E31277;
+}
+.subscribe_btn:hover {
+  background: #630834;
+}
+.subscribe_btn .subscribe_link {
+  padding: 8px 40px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+.footer_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_content .footer_word {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_item:hover {
+  color: #630834 !important;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .container .footer_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+
+  .container .footer_word {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .footer_word .footer_title {
+    margin: 16px 0 0 0 !important;
+  }
+  .container .footer_word .footer_date {
+    margin: 0 !important;
+  }
+
+  .container .footer_button {
+    display: none !important;
+  }
+}
 /*-- components --*/
 /*-- pages --*/
 /*-- banner --*/
@@ -16339,92 +16424,5 @@ p {
   }
   .container .lick_item {
     margin-bottom: 16px;
-  }
-}
-/*----------------------------------------*/
-.subscribe_bgPic {
-  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
-  height: 400px;
-}
-
-.subscribe_title {
-  line-height: 1.5;
-}
-
-.subscribe_mail {
-  width: 350px;
-}
-
-.subscribe_btn {
-  background: #E31277;
-}
-.subscribe_btn:hover {
-  background: #630834;
-}
-.subscribe_btn .subscribe_link {
-  padding: 8px 40px;
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 940px;
-  }
-}
-/*----------------------------------------*/
-.footer_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.footer_content .footer_word {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer_item:hover {
-  color: #630834 !important;
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 940px;
-  }
-}
-@media (max-width: 767px) {
-  .container {
-    max-width: 100%;
-  }
-  .container .footer_content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start !important;
-        -ms-flex-align: start !important;
-            align-items: flex-start !important;
-  }
-
-  .container .footer_word {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .container .footer_word .footer_title {
-    margin: 16px 0 0 0 !important;
-  }
-  .container .footer_word .footer_date {
-    margin: 0 !important;
-  }
-
-  .container .footer_button {
-    display: none !important;
   }
 }
