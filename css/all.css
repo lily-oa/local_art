@@ -16147,34 +16147,6 @@ p {
     /* 決定如何處理元素內的空白字元 */
   }
 }
-.subscribe_bgPic {
-  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
-  height: 400px;
-}
-
-.subscribe_title {
-  line-height: 1.5;
-}
-
-.subscribe_mail {
-  width: 350px;
-}
-
-.subscribe_btn {
-  background: #E31277;
-}
-.subscribe_btn:hover {
-  background: #630834;
-}
-.subscribe_btn .subscribe_link {
-  padding: 8px 40px;
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 940px;
-  }
-}
 .footer_content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16233,6 +16205,34 @@ p {
   }
 }
 /*-- components --*/
+.subscribe_bgPic {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 400px;
+}
+
+.subscribe_title {
+  line-height: 1.5;
+}
+
+.subscribe_mail {
+  width: 350px;
+}
+
+.subscribe_btn {
+  background: #E31277;
+}
+.subscribe_btn:hover {
+  background: #630834;
+}
+.subscribe_btn .subscribe_link {
+  padding: 8px 40px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
 /*-- pages --*/
 /*-- banner --*/
 .banner {
@@ -16425,4 +16425,8 @@ p {
   .container .lick_item {
     margin-bottom: 16px;
   }
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }

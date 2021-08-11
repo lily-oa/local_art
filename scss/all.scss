@@ -11,9 +11,10 @@
 /*-- layout --*/
 @import "layout/navbar";
 @import "layout/nav-scroller";
-@import "layout/subscribe";
+
 @import "layout/footer";
 /*-- components --*/
+@import "components/subscribe"; //重覆區塊
 /*-- pages --*/
 @import "pages/index";
 @import "pages/design";
