@@ -244,3 +244,26 @@
     max-width: 940px;
   }
 }
+
+// mobile(767)
+@include mobile{
+  .container{
+    max-width: 100%;
+    .footer_content{
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+  }
+  .container .footer_word{
+    flex-direction: column;
+    .footer_title{
+      margin: 16px 0 0 0 !important;
+    }
+    .footer_date{
+      margin: 0 !important;
+    }
+  }
+  .container .footer_button{
+    display: none !important;
+  }
+}
