@@ -16346,3 +16346,54 @@ p {
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
   height: 400px;
 }
+
+.subscribe_title {
+  line-height: 1.5;
+}
+
+.subscribe_mail {
+  width: 350px;
+}
+
+.subscribe_btn {
+  background: #E31277;
+}
+.subscribe_btn:hover {
+  background: #630834;
+}
+.subscribe_btn .subscribe_link {
+  padding: 8px 40px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+/*----------------------------------------*/
+.footer_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_content .footer_word {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_item:hover {
+  color: #630834 !important;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
