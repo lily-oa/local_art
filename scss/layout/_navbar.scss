@@ -40,8 +40,6 @@
 @include mobile-s {
   nav {
     .navbar {
-      display: flex;
-      justify-content: flex-start !important;
       .navbar_title {
         padding-right: 0;
       }
