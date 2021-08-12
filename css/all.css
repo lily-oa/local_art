@@ -16191,6 +16191,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
   }
   .container .footer_word .footer_title {
     margin: 16px 0 0 0 !important;
@@ -16253,36 +16256,6 @@ p {
 @media (max-width: 767px) {
   .container {
     min-width: 100%;
-    -webkit-box-pack: end !important;
-        -ms-flex-pack: end !important;
-            justify-content: flex-end !important;
-  }
-  .container .banner_data {
-    padding-bottom: 167px !important;
-    padding-left: 80px !important;
-  }
-}
-@media (max-width: 375px) {
-  .sectionPart {
-    padding-top: 20px !important;
-  }
-  .sectionPart .ticket_firstTitle {
-    margin-bottom: 8px !important;
-  }
-
-  .container .banner_data {
-    padding-left: 0 !important;
-    padding-bottom: 80px !important;
-  }
-  .container .banner_data .banner_twoBtn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .container .banner_data .banner_twoBtn .banner_btn {
-    padding: 8px 40px;
   }
 }
 /*----------------------------------------*/

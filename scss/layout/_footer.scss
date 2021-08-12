@@ -29,6 +29,7 @@
   }
   .container .footer_word{
     flex-direction: column;
+    align-items: flex-start !important;
     .footer_title{
       margin: 16px 0 0 0 !important;
     }

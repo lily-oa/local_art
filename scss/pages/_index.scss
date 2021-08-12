@@ -21,34 +21,9 @@
 @include mobile{
   .container{
     min-width: 100%;
-    justify-content: flex-end !important;
-    .banner_data{
-      padding-bottom: 167px !important;
-      padding-left: 80px !important;
-    }
   }
 }
 
-// mobile-s
-@include mobile-s{
-  .sectionPart {
-    padding-top: 20px !important;
-    .ticket_firstTitle{
-      margin-bottom: 8px !important;
-    }
-  }
-  .container .banner_data{
-    padding-left: 0 !important;
-    padding-bottom: 80px !important;
-    .banner_twoBtn{
-      display: flex;
-      justify-content: space-around;
-      .banner_btn{
-        padding: 8px 40px;
-      }
-    }
-  }
-}
 /*----------------------------------------*/
 // section ticket
 .card_pic{
