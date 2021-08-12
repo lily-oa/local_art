@@ -68,7 +68,7 @@
   }
 }
 
-// pad
+// pad(992)
 @include pad{
   .container{
     max-width: 940px;
@@ -166,12 +166,12 @@
 
 /*----------------------------------------*/
 // section lick 輪播
+//swiper
 .lick_pic{
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
 }
-
 // pad(992)
 @include pad{
   .container{
@@ -201,10 +201,9 @@
   height: 100%;
 }
 
-// 不一定要加
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 350px;
   object-fit: cover;
 }
