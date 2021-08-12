@@ -1,7 +1,7 @@
 // tDesign 台味設計
-.design {
+.tDesign {
   padding: 80px 0 52px 0;
-  .design_date{
+  .tDesign_date{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -17,18 +17,25 @@
 
 // mobile(768)
 @include mobile{
-  .design{
+  .tDesign{
       padding: 44px 0;
     }
   .container{
     max-width: 100%;
-    .design_date{
+    .tDesign_date{
       display: flex;
       flex-direction: row;
       align-items: flex-end;
       justify-content: flex-start;
       margin: 16px 0 8px 0;
     }
+  }
+}
+
+// mobile-s(375)
+@include mobile-s{
+  .design_word{
+    margin-right: 4px;
   }
 }
 
