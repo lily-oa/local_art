@@ -49,3 +49,10 @@
     }
   }
 }
+
+//hover
+.nav_hover{
+  &:hover{
+    color: $bgColor_2!important;
+  }
+}

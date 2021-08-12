@@ -39,6 +39,13 @@
   }
 }
 
+.one_hover{
+  &:hover{
+    color: $secondary!important;
+
+  } 
+}
+
 /*-------------------------------*/
 //online 線上設計
 .online {

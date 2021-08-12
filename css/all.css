@@ -16564,6 +16564,10 @@ p {
     margin-right: 0;
   }
 }
+.nav_hover:hover {
+  color: #190014CC !important;
+}
+
 .navbarDown_detail:hover {
   color: #630834 !important;
 }
@@ -16909,6 +16913,10 @@ p {
     margin-right: 4px;
   }
 }
+.one_hover:hover {
+  color: #E31277 !important;
+}
+
 /*-------------------------------*/
 .online {
   padding: 80px 0 52px 0;
