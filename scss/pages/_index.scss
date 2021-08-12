@@ -21,6 +21,9 @@
 @include mobile{
   .container{
     min-width: 100%;
+    .banner_content{
+      padding-top: 254px;
+    }
   }
 }
 

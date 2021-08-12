@@ -16040,7 +16040,7 @@ a {
 ul, li {
   list-style: none;
   margin-right: 0;
-  padding: 0 !important;
+  padding: 0;
   margin-bottom: 0;
 }
 
@@ -16256,6 +16256,9 @@ p {
 @media (max-width: 767px) {
   .container {
     min-width: 100%;
+  }
+  .container .banner_content {
+    padding-top: 254px;
   }
 }
 /*----------------------------------------*/
