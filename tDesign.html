@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bs5 css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <!--Noto Sans CJK TC 字體引入-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet">
-    <!--icon-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>local_art_design</title>
-    <!--icon-->
-    <script src="https://kit.fontawesome.com/ae90d4fd10.js" crossorigin="anonymous"></script>
-    <!--swiper-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bs5 css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!--Noto Sans CJK TC 字體引入-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!--icon-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>local_art_design</title>
+  <!--icon-->
+  <script src="https://kit.fontawesome.com/ae90d4fd10.js" crossorigin="anonymous"></script>
+  <!--swiper-->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <!--本地全部css 引入檔-->
-    <link rel="stylesheet" href="css/all.css">
-  </head>
-  
+  <!--本地全部css 引入檔-->
+  <link rel="stylesheet" href="css/all.css">
+</head>
+
 <body>
   <!--navbar-->
   <nav class="py-7 position-relative">
@@ -60,46 +61,85 @@
     </div>
   </div>
 
-<!------------------------------------------------------------------------------>
-  <!--design 台味設計-->
-  <div class="design bg-primary">
-    <div class="container">
-      <div class="row">
-        <!--992以上出現-->
-        <div class="design_title col-12 col-lg-4 col-xl-4 d-sm-none d-md-none d-lg-block d-xl-block">
-          <h1 class="fs-13 fw-bolder text-white mb-2 mb-lg-4 mb-xl-4">2020 台味設計展</h1>
-          <p class="text-white">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
+  <!------------------------------------------------------------------------------design.html>
+  <!--tDesign 台味設計-->
+  <section class="tDesign">
+    <ul class="d-flex flex-column position-relative">
+      <li class="design bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xl-5">
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+                alt="展覽照片">
+            </div>
+            <div class="design_date col-lg-1 col-xl-1 position-relative ">
+                <p class="text-white fw-bolder fs-5 me-md-1">01
+                <p class="text-white fw-bolder fs-5 me-md-1">JUN
+                <p class="text-white fw-bolder fs-5 me-md-1">|
+                <p class="text-white fw-bolder fs-5 me-md-1">31</p>
+                <p class="text-white fw-bolder fs-5">OCT</p>
+            </div>
+            <div class="design_title col-lg-4 col-xl-4 order-lg-first">
+              <h1 class="fs-13 fw-bolder text-white mb-2 mb-lg-4 mb-xl-4">2020 台味設計展</h1>
+              <p class="text-white">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
+            </div>
+          </div>
         </div>
-        <!--不要動-->
-        <div class="col-12 col-lg-5 col-xl-5">
-          <img 
-          class="design_pic"
-          src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true" alt="展覽照片">
-        </div>
-        <!--992以上出現-->
-        <div class="design_date col-12 col-lg-1 col-xl-1 d-sm-none d-md-none d-lg-block d-xl-block">
-          <p class="text-white fw-bolder fs-5">01
-          <p class="text-white fw-bolder fs-5">JUN  
-          <p class="text-white fw-bolder fs-5">|
-          <p class="text-white fw-bolder fs-5">31</p>
-          <p class="text-white fw-bolder fs-5">OCT</p>
-        </div>
-        <!--768出現-->
-        <div class="design_date2 col-12 col-lg-1 col-xl-1 d-block d-lg-none d-xl-none">
-          <p class="text-white fw-bolder fs-5 mt-3 mb-2">01 JUN — 31 OCT</p>
-        </div>
-        <!--768出現-->
-        <div class="design_title2 col-12 col-lg-4 col-xl-4 d-block d-lg-none d-xl-none">
-          <h1 class="fs-13 fw-bolder text-white mb-2 mb-lg-4 mb-xl-4">2020 台味設計展</h1>
-          <p class="text-white mb-14">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
-        </div>
-      </div>
-    </div>
-  </div>
+      </li>
 
-  <!--online 線上設計-->
+      <!--online 線上設計-->
+      <li class="online">
+        <div class="container">
+          <div class="row justify-content-lg-end">
+            <div class="col-lg-5 col-xl-5">
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true"
+                alt="展覽照片">
+            </div>
+            <div class="online_date col-lg-1 col-xl-1 position-relative">
+                <p class="text-primary fw-bolder fs-5 me-md-1">01
+                <p class="text-primary fw-bolder fs-5 me-md-1">JUN
+                <p class="text-primary fw-bolder fs-5 me-md-1">|
+                <p class="text-primary fw-bolder fs-5 me-md-1">31</p>
+                <p class="text-primary fw-bolder fs-5">OCT</p>
+            </div>
+            <div class="onlie_title col-lg-4 col-xl-4 order-lg-first">
+              <h1 class="fs-13 fw-bolder text-primary mb-2 mb-lg-4 mb-xl-4">No.22 線上設計展</h1>
+              <p class="text-primary">這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</p>
+            </div>
+          </div>
+        </div>
+      </li>
 
-<!------------------------------------------------------------------------------>
+      <!--kaohsiung 高雄設計-->
+      <li>
+        <li class="kaohsiung bg-primary">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-xl-5">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true"
+                  alt="展覽照片">
+              </div>
+              <div class="kaohsiung_date col-lg-1 col-xl-1 position-relative ">
+                  <p class="text-white fw-bolder fs-5 me-md-1">01
+                  <p class="text-white fw-bolder fs-5 me-md-1">JUN
+                  <p class="text-white fw-bolder fs-5 me-md-1">|
+                  <p class="text-white fw-bolder fs-5 me-md-1">31</p>
+                  <p class="text-white fw-bolder fs-5">OCT</p>
+              </div>
+              <div class="kaohsiung_title col-lg-4 col-xl-4 order-lg-first">
+                <h1 class="fs-13 fw-bolder text-white mb-2 mb-lg-4 mb-xl-4">高雄設計節</h1>
+                <p class="text-white">設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </li>
+    </ul>
+  </section>
+  <!------------------------------------------------------------------------------end>
   <!--section like-->
   <!--swiper-->
   <div class="container">
@@ -110,7 +150,7 @@
           <div class="swiper-wrapper">
             <!--1-->
             <div class="swiper-slide">
-              <img 
+              <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true"
                 class="d-block w-100" alt="product picture">
               <p class="fs-5 fw-bolder mb-1">No.22 線上設計展</p>
@@ -118,7 +158,7 @@
             </div>
             <!--2-->
             <div class="swiper-slide">
-              <img 
+              <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg?raw=true"
                 class="d-block w-100" alt="product picture">
               <p class="fs-5 fw-bolder mb-1">No.22 線上設計展</p>
@@ -126,7 +166,7 @@
             </div>
             <!--3-->
             <div class="swiper-slide">
-              <img 
+              <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/museums-victoria-kiDwVL_5ZBY-unsplash%20(1).jpg?raw=true"
                 class="d-block w-100" alt="product picture">
               <p class="fs-5 fw-bolder mb-1">No.22 線上設計展</p>
@@ -135,7 +175,7 @@
             <!--第二輪-->
             <!--1-->
             <div class="swiper-slide">
-              <img 
+              <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true"
                 class="d-block w-100" alt="product picture">
               <p class="fs-5 fw-bolder mb-1">No.22 線上設計展</p>
@@ -143,7 +183,7 @@
             </div>
             <!--2-->
             <div class="swiper-slide">
-              <img 
+              <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg?raw=true"
                 class="d-block w-100" alt="product picture">
               <p class="fs-5 fw-bolder mb-1">No.22 線上設計展</p>
@@ -151,7 +191,7 @@
             </div>
             <!--3-->
             <div class="swiper-slide">
-              <img 
+              <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/museums-victoria-kiDwVL_5ZBY-unsplash%20(1).jpg?raw=true"
                 class="d-block w-100" alt="product picture">
               <p class="fs-5 fw-bolder mb-1">No.22 線上設計展</p>
@@ -226,4 +266,5 @@
   <!--本地 js 引入檔-->
   <script src="js/all.js"></script>
 </body>
+
 </html>
