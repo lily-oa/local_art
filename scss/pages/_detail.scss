@@ -4,4 +4,12 @@
   &_picBox {
     height: 256px;
   }
+  &_date{
+    position: absolute;
+    bottom: 163px;
+    right: 53%;
+  }
+  &_dateData {
+    color: white;
+  }
 }

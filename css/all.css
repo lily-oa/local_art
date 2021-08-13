@@ -17461,3 +17461,11 @@ p {
 .detail_picBox {
   height: 256px;
 }
+.detail_date {
+  position: absolute;
+  bottom: 163px;
+  right: 53%;
+}
+.detail_dateData {
+  color: white;
+}
