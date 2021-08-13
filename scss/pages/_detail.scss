@@ -20,5 +20,40 @@
 .site{
   margin-right: 40px;
   margin-left: 40px;
-  
 }
+.ticket_hover{
+  &:hover{
+    color: $secondary !important;
+  }
+}
+.hr{
+  border-left: 1px solid $wordColor_1;
+}
+
+// pad(992)
+@include pad{
+  .container{
+    max-width: 940px;
+  }
+}
+
+// mobile(768)
+@include mobile{
+  .container{
+    max-width: 100%;
+  }
+  .detail .buy_box{
+    height: auto;
+  }
+  .detail_date{
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    .detail_dateData{
+      color: #000;
+    }
+  }
+}
+
+/*-----------------------------*/
+//present 介紹

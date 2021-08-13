@@ -17478,3 +17478,36 @@ p {
   margin-right: 40px;
   margin-left: 40px;
 }
+
+.ticket_hover:hover {
+  color: #E31277 !important;
+}
+
+.hr {
+  border-left: 1px solid #707070;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .detail .buy_box {
+    height: auto;
+  }
+
+  .detail_date {
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+  }
+  .detail_date .detail_dateData {
+    color: #000;
+  }
+}
+/*-----------------------------*/
