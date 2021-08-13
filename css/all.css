@@ -17463,9 +17463,10 @@ p {
 }
 .detail_date {
   position: absolute;
-  bottom: 163px;
+  bottom: 153px;
   right: 53%;
 }
 .detail_dateData {
   color: white;
+  font-size: 1.25rem;
 }
