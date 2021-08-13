@@ -17955,6 +17955,16 @@ p {
   }
 }
 /*-----------------------------*/
-.present {
-  padding: 40px 0 60px 0;
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+.text-indent {
+  text-indent: 32px;
 }

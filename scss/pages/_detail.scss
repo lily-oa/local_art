@@ -57,6 +57,19 @@
 
 /*-----------------------------*/
 //present 介紹
-.present{
-  padding: 40px 0 60px 0;
+//pad(992)
+@include pad{
+  .container{
+    max-width: 940px;
+  }
+}
+
+// mobile(768)
+@include mobile{
+  .container{
+    max-width: 100%;
+  }
+}
+.text-indent{
+  text-indent: 32px;
 }
