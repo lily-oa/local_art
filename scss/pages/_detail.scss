@@ -6,11 +6,19 @@
   }
   &_date{
     position: absolute;
-    bottom: 153px;
-    right: 53%;
+    top: 53px;
+    right: 26px;
   }
   &_dateData {
     color: white;
     font-size: $h5-font-size;
   }
+  .buy_box{
+    height: 256px;
+  }
+}
+.site{
+  margin-right: 40px;
+  margin-left: 40px;
+  
 }

@@ -16916,7 +16916,7 @@ textarea.form-control-lg {
 /*-- config--*/
 /*  全域  */
 body {
-  font-family: "Roboto", "Noto Sans SC", sans-serif;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
   line-height: 1.5;
   overflow-x: hidden;
   /* 確保AOS套件在RWD不會出現X軸 */
@@ -17463,10 +17463,18 @@ p {
 }
 .detail_date {
   position: absolute;
-  bottom: 153px;
-  right: 53%;
+  top: 53px;
+  right: 26px;
 }
 .detail_dateData {
   color: white;
   font-size: 1.25rem;
+}
+.detail .buy_box {
+  height: 256px;
+}
+
+.site {
+  margin-right: 40px;
+  margin-left: 40px;
 }
