@@ -33,7 +33,14 @@
           <li><a href="#" class="nav_item text-wordColor_1 d-none d-md-block nav_hover">Sign in</a></li>
           <li class="nav_item ms-6"><a href="#" class="text-wordColor_1 d-none d-md-block nav_hover">Sign up</a></li>
           <li class="nav_move ms-6">
-            <a href="#" class="message d-flex position-relative">
+            <!--buySidebar 彈跳視窗按鈕-->
+            <a 
+            href="#" 
+            class="message d-flex position-relative"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            >
               <span class="nav_icon material-icons text-dark">theaters</span>
               <span
                 class="badge bg-secondary nav_badge rounded-circle position-absolute top-0 start-100 translate-middle">3</span>
@@ -60,6 +67,17 @@
       </nav>
     </div>
   </div>
+  <!-----------------------------------------buySidebar-->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      ...
+    </div>
+  </div>
+  <!-----------------------------------------buySidebar--end>
 
   <!------------------------------------------------------------------------------detail.html>
   <!--detail 明細-->
