@@ -17356,6 +17356,11 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
 }
 
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /*  工具箱  */
 /*-- config--*/
 /*  全域  */
@@ -17370,6 +17375,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  vertical-align: middle !important;
 }
 
 a {
@@ -17542,6 +17548,10 @@ p {
     display: none !important;
   }
 }
+.buySidebar {
+  padding: 32px 0 24px 32px;
+}
+
 /*-- components --*/
 .subscribe_bgPic {
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
