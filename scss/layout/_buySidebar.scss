@@ -1,12 +1,12 @@
 .buySidebar {
   top: 84px;
   right: 0;
-  width: 50%;
+  width: 40%;
   @include pad{
-    width: 60%;
+    width: 50%;
   }
   @include mobile{
-    width: 75%;
+    width: 65%;
   }
   @include mobile-m{
     width: 100%;
@@ -28,7 +28,7 @@
     width: 28%;
   }
   @include mobile-s{
-    width: 28%;
+    width: 27%;
   }
 }
 
