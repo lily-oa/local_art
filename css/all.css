@@ -31,6 +31,7 @@
   --bs-bgColor_1: #EFEFEF;
   --bs-bgColor_2: #190014CC;
   --bs-wordColor_1: #707070;
+  --bs-wordColor_2: #373A3C;
   --bs-thirdColor: #3B2433;
   --bs-font-sans-serif: "Roboto", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -1300,6 +1301,16 @@ progress {
   --bs-gutter-y: 0.75rem;
 }
 
+.g-17,
+.gx-17 {
+  --bs-gutter-x: 7.3125rem;
+}
+
+.g-17,
+.gy-17 {
+  --bs-gutter-y: 7.3125rem;
+}
+
 @media (min-width: 576px) {
   .col-sm-auto {
     -webkit-box-flex: 0;
@@ -1608,6 +1619,16 @@ progress {
   .g-sm-16,
 .gy-sm-16 {
     --bs-gutter-y: 0.75rem;
+  }
+
+  .g-sm-17,
+.gx-sm-17 {
+    --bs-gutter-x: 7.3125rem;
+  }
+
+  .g-sm-17,
+.gy-sm-17 {
+    --bs-gutter-y: 7.3125rem;
   }
 }
 @media (min-width: 768px) {
@@ -1919,6 +1940,16 @@ progress {
 .gy-md-16 {
     --bs-gutter-y: 0.75rem;
   }
+
+  .g-md-17,
+.gx-md-17 {
+    --bs-gutter-x: 7.3125rem;
+  }
+
+  .g-md-17,
+.gy-md-17 {
+    --bs-gutter-y: 7.3125rem;
+  }
 }
 @media (min-width: 992px) {
   .col-lg-auto {
@@ -2228,6 +2259,16 @@ progress {
   .g-lg-16,
 .gy-lg-16 {
     --bs-gutter-y: 0.75rem;
+  }
+
+  .g-lg-17,
+.gx-lg-17 {
+    --bs-gutter-x: 7.3125rem;
+  }
+
+  .g-lg-17,
+.gy-lg-17 {
+    --bs-gutter-y: 7.3125rem;
   }
 }
 @media (min-width: 1200px) {
@@ -2539,6 +2580,16 @@ progress {
 .gy-xl-16 {
     --bs-gutter-y: 0.75rem;
   }
+
+  .g-xl-17,
+.gx-xl-17 {
+    --bs-gutter-x: 7.3125rem;
+  }
+
+  .g-xl-17,
+.gy-xl-17 {
+    --bs-gutter-y: 7.3125rem;
+  }
 }
 @media (min-width: 1400px) {
   .col-xxl-auto {
@@ -2848,6 +2899,16 @@ progress {
   .g-xxl-16,
 .gy-xxl-16 {
     --bs-gutter-y: 0.75rem;
+  }
+
+  .g-xxl-17,
+.gx-xxl-17 {
+    --bs-gutter-x: 7.3125rem;
+  }
+
+  .g-xxl-17,
+.gy-xxl-17 {
+    --bs-gutter-y: 7.3125rem;
   }
 }
 .table {
@@ -4339,6 +4400,38 @@ textarea.form-control-lg {
   border-color: #707070;
 }
 
+.btn-wordColor_2 {
+  color: #fff;
+  background-color: #373A3C;
+  border-color: #373A3C;
+}
+.btn-wordColor_2:hover {
+  color: #fff;
+  background-color: #2f3133;
+  border-color: #2c2e30;
+}
+.btn-check:focus + .btn-wordColor_2, .btn-wordColor_2:focus {
+  color: #fff;
+  background-color: #2f3133;
+  border-color: #2c2e30;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(85, 88, 89, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(85, 88, 89, 0.5);
+}
+.btn-check:checked + .btn-wordColor_2, .btn-check:active + .btn-wordColor_2, .btn-wordColor_2:active, .btn-wordColor_2.active, .show > .btn-wordColor_2.dropdown-toggle {
+  color: #fff;
+  background-color: #2c2e30;
+  border-color: #292c2d;
+}
+.btn-check:checked + .btn-wordColor_2:focus, .btn-check:active + .btn-wordColor_2:focus, .btn-wordColor_2:active:focus, .btn-wordColor_2.active:focus, .show > .btn-wordColor_2.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(85, 88, 89, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(85, 88, 89, 0.5);
+}
+.btn-wordColor_2:disabled, .btn-wordColor_2.disabled {
+  color: #fff;
+  background-color: #373A3C;
+  border-color: #373A3C;
+}
+
 .btn-thirdColor {
   color: #fff;
   background-color: #3B2433;
@@ -4665,6 +4758,33 @@ textarea.form-control-lg {
 }
 .btn-outline-wordColor_1:disabled, .btn-outline-wordColor_1.disabled {
   color: #707070;
+  background-color: transparent;
+}
+
+.btn-outline-wordColor_2 {
+  color: #373A3C;
+  border-color: #373A3C;
+}
+.btn-outline-wordColor_2:hover {
+  color: #fff;
+  background-color: #373A3C;
+  border-color: #373A3C;
+}
+.btn-check:focus + .btn-outline-wordColor_2, .btn-outline-wordColor_2:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(55, 58, 60, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(55, 58, 60, 0.5);
+}
+.btn-check:checked + .btn-outline-wordColor_2, .btn-check:active + .btn-outline-wordColor_2, .btn-outline-wordColor_2:active, .btn-outline-wordColor_2.active, .btn-outline-wordColor_2.dropdown-toggle.show {
+  color: #fff;
+  background-color: #373A3C;
+  border-color: #373A3C;
+}
+.btn-check:checked + .btn-outline-wordColor_2:focus, .btn-check:active + .btn-outline-wordColor_2:focus, .btn-outline-wordColor_2:active:focus, .btn-outline-wordColor_2.active:focus, .btn-outline-wordColor_2.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(55, 58, 60, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(55, 58, 60, 0.5);
+}
+.btn-outline-wordColor_2:disabled, .btn-outline-wordColor_2.disabled {
+  color: #373A3C;
   background-color: transparent;
 }
 
@@ -6237,6 +6357,15 @@ textarea.form-control-lg {
   color: #363636;
 }
 
+.alert-wordColor_2 {
+  color: #212324;
+  background-color: #d7d8d8;
+  border-color: #c3c4c5;
+}
+.alert-wordColor_2 .alert-link {
+  color: #1a1c1d;
+}
+
 .alert-thirdColor {
   color: #23161f;
   background-color: #d8d3d6;
@@ -6706,6 +6835,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #434343;
   border-color: #434343;
+}
+
+.list-group-item-wordColor_2 {
+  color: #212324;
+  background-color: #d7d8d8;
+}
+.list-group-item-wordColor_2.list-group-item-action:hover, .list-group-item-wordColor_2.list-group-item-action:focus {
+  color: #212324;
+  background-color: #c2c2c2;
+}
+.list-group-item-wordColor_2.list-group-item-action.active {
+  color: #fff;
+  background-color: #212324;
+  border-color: #212324;
 }
 
 .list-group-item-thirdColor {
@@ -7860,6 +8003,13 @@ textarea.form-control-lg {
   color: #5a5a5a;
 }
 
+.link-wordColor_2 {
+  color: #373A3C;
+}
+.link-wordColor_2:hover, .link-wordColor_2:focus {
+  color: #2c2e30;
+}
+
 .link-thirdColor {
   color: #3B2433;
 }
@@ -8270,6 +8420,10 @@ textarea.form-control-lg {
   border-color: #707070 !important;
 }
 
+.border-wordColor_2 {
+  border-color: #373A3C !important;
+}
+
 .border-thirdColor {
   border-color: #3B2433 !important;
 }
@@ -8499,6 +8653,10 @@ textarea.form-control-lg {
 
 .gap-16 {
   gap: 0.75rem !important;
+}
+
+.gap-17 {
+  gap: 7.3125rem !important;
 }
 
 .justify-content-start {
@@ -8745,6 +8903,10 @@ textarea.form-control-lg {
   margin: 0.75rem !important;
 }
 
+.m-17 {
+  margin: 7.3125rem !important;
+}
+
 .m-auto {
   margin: auto !important;
 }
@@ -8832,6 +8994,11 @@ textarea.form-control-lg {
 .mx-16 {
   margin-right: 0.75rem !important;
   margin-left: 0.75rem !important;
+}
+
+.mx-17 {
+  margin-right: 7.3125rem !important;
+  margin-left: 7.3125rem !important;
 }
 
 .mx-auto {
@@ -8924,6 +9091,11 @@ textarea.form-control-lg {
   margin-bottom: 0.75rem !important;
 }
 
+.my-17 {
+  margin-top: 7.3125rem !important;
+  margin-bottom: 7.3125rem !important;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -8995,6 +9167,10 @@ textarea.form-control-lg {
 
 .mt-16 {
   margin-top: 0.75rem !important;
+}
+
+.mt-17 {
+  margin-top: 7.3125rem !important;
 }
 
 .mt-auto {
@@ -9069,6 +9245,10 @@ textarea.form-control-lg {
   margin-right: 0.75rem !important;
 }
 
+.me-17 {
+  margin-right: 7.3125rem !important;
+}
+
 .me-auto {
   margin-right: auto !important;
 }
@@ -9139,6 +9319,10 @@ textarea.form-control-lg {
 
 .mb-16 {
   margin-bottom: 0.75rem !important;
+}
+
+.mb-17 {
+  margin-bottom: 7.3125rem !important;
 }
 
 .mb-auto {
@@ -9213,6 +9397,10 @@ textarea.form-control-lg {
   margin-left: 0.75rem !important;
 }
 
+.ms-17 {
+  margin-left: 7.3125rem !important;
+}
+
 .ms-auto {
   margin-left: auto !important;
 }
@@ -9283,6 +9471,10 @@ textarea.form-control-lg {
 
 .p-16 {
   padding: 0.75rem !important;
+}
+
+.p-17 {
+  padding: 7.3125rem !important;
 }
 
 .px-0 {
@@ -9370,6 +9562,11 @@ textarea.form-control-lg {
   padding-left: 0.75rem !important;
 }
 
+.px-17 {
+  padding-right: 7.3125rem !important;
+  padding-left: 7.3125rem !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -9455,6 +9652,11 @@ textarea.form-control-lg {
   padding-bottom: 0.75rem !important;
 }
 
+.py-17 {
+  padding-top: 7.3125rem !important;
+  padding-bottom: 7.3125rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -9521,6 +9723,10 @@ textarea.form-control-lg {
 
 .pt-16 {
   padding-top: 0.75rem !important;
+}
+
+.pt-17 {
+  padding-top: 7.3125rem !important;
 }
 
 .pe-0 {
@@ -9591,6 +9797,10 @@ textarea.form-control-lg {
   padding-right: 0.75rem !important;
 }
 
+.pe-17 {
+  padding-right: 7.3125rem !important;
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -9659,6 +9869,10 @@ textarea.form-control-lg {
   padding-bottom: 0.75rem !important;
 }
 
+.pb-17 {
+  padding-bottom: 7.3125rem !important;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -9725,6 +9939,10 @@ textarea.form-control-lg {
 
 .ps-16 {
   padding-left: 0.75rem !important;
+}
+
+.ps-17 {
+  padding-left: 7.3125rem !important;
 }
 
 .font-monospace {
@@ -9922,6 +10140,10 @@ textarea.form-control-lg {
   color: #707070 !important;
 }
 
+.text-wordColor_2 {
+  color: #373A3C !important;
+}
+
 .text-thirdColor {
   color: #3B2433 !important;
 }
@@ -9992,6 +10214,10 @@ textarea.form-control-lg {
 
 .bg-wordColor_1 {
   background-color: #707070 !important;
+}
+
+.bg-wordColor_2 {
+  background-color: #373A3C !important;
 }
 
 .bg-thirdColor {
@@ -10295,6 +10521,10 @@ textarea.form-control-lg {
     gap: 0.75rem !important;
   }
 
+  .gap-sm-17 {
+    gap: 7.3125rem !important;
+  }
+
   .justify-content-sm-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -10539,6 +10769,10 @@ textarea.form-control-lg {
     margin: 0.75rem !important;
   }
 
+  .m-sm-17 {
+    margin: 7.3125rem !important;
+  }
+
   .m-sm-auto {
     margin: auto !important;
   }
@@ -10626,6 +10860,11 @@ textarea.form-control-lg {
   .mx-sm-16 {
     margin-right: 0.75rem !important;
     margin-left: 0.75rem !important;
+  }
+
+  .mx-sm-17 {
+    margin-right: 7.3125rem !important;
+    margin-left: 7.3125rem !important;
   }
 
   .mx-sm-auto {
@@ -10718,6 +10957,11 @@ textarea.form-control-lg {
     margin-bottom: 0.75rem !important;
   }
 
+  .my-sm-17 {
+    margin-top: 7.3125rem !important;
+    margin-bottom: 7.3125rem !important;
+  }
+
   .my-sm-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -10789,6 +11033,10 @@ textarea.form-control-lg {
 
   .mt-sm-16 {
     margin-top: 0.75rem !important;
+  }
+
+  .mt-sm-17 {
+    margin-top: 7.3125rem !important;
   }
 
   .mt-sm-auto {
@@ -10863,6 +11111,10 @@ textarea.form-control-lg {
     margin-right: 0.75rem !important;
   }
 
+  .me-sm-17 {
+    margin-right: 7.3125rem !important;
+  }
+
   .me-sm-auto {
     margin-right: auto !important;
   }
@@ -10933,6 +11185,10 @@ textarea.form-control-lg {
 
   .mb-sm-16 {
     margin-bottom: 0.75rem !important;
+  }
+
+  .mb-sm-17 {
+    margin-bottom: 7.3125rem !important;
   }
 
   .mb-sm-auto {
@@ -11007,6 +11263,10 @@ textarea.form-control-lg {
     margin-left: 0.75rem !important;
   }
 
+  .ms-sm-17 {
+    margin-left: 7.3125rem !important;
+  }
+
   .ms-sm-auto {
     margin-left: auto !important;
   }
@@ -11077,6 +11337,10 @@ textarea.form-control-lg {
 
   .p-sm-16 {
     padding: 0.75rem !important;
+  }
+
+  .p-sm-17 {
+    padding: 7.3125rem !important;
   }
 
   .px-sm-0 {
@@ -11164,6 +11428,11 @@ textarea.form-control-lg {
     padding-left: 0.75rem !important;
   }
 
+  .px-sm-17 {
+    padding-right: 7.3125rem !important;
+    padding-left: 7.3125rem !important;
+  }
+
   .py-sm-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -11249,6 +11518,11 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .py-sm-17 {
+    padding-top: 7.3125rem !important;
+    padding-bottom: 7.3125rem !important;
+  }
+
   .pt-sm-0 {
     padding-top: 0 !important;
   }
@@ -11315,6 +11589,10 @@ textarea.form-control-lg {
 
   .pt-sm-16 {
     padding-top: 0.75rem !important;
+  }
+
+  .pt-sm-17 {
+    padding-top: 7.3125rem !important;
   }
 
   .pe-sm-0 {
@@ -11385,6 +11663,10 @@ textarea.form-control-lg {
     padding-right: 0.75rem !important;
   }
 
+  .pe-sm-17 {
+    padding-right: 7.3125rem !important;
+  }
+
   .pb-sm-0 {
     padding-bottom: 0 !important;
   }
@@ -11453,6 +11735,10 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .pb-sm-17 {
+    padding-bottom: 7.3125rem !important;
+  }
+
   .ps-sm-0 {
     padding-left: 0 !important;
   }
@@ -11519,6 +11805,10 @@ textarea.form-control-lg {
 
   .ps-sm-16 {
     padding-left: 0.75rem !important;
+  }
+
+  .ps-sm-17 {
+    padding-left: 7.3125rem !important;
   }
 
   .text-sm-start {
@@ -11728,6 +12018,10 @@ textarea.form-control-lg {
 
   .gap-md-16 {
     gap: 0.75rem !important;
+  }
+
+  .gap-md-17 {
+    gap: 7.3125rem !important;
   }
 
   .justify-content-md-start {
@@ -11974,6 +12268,10 @@ textarea.form-control-lg {
     margin: 0.75rem !important;
   }
 
+  .m-md-17 {
+    margin: 7.3125rem !important;
+  }
+
   .m-md-auto {
     margin: auto !important;
   }
@@ -12061,6 +12359,11 @@ textarea.form-control-lg {
   .mx-md-16 {
     margin-right: 0.75rem !important;
     margin-left: 0.75rem !important;
+  }
+
+  .mx-md-17 {
+    margin-right: 7.3125rem !important;
+    margin-left: 7.3125rem !important;
   }
 
   .mx-md-auto {
@@ -12153,6 +12456,11 @@ textarea.form-control-lg {
     margin-bottom: 0.75rem !important;
   }
 
+  .my-md-17 {
+    margin-top: 7.3125rem !important;
+    margin-bottom: 7.3125rem !important;
+  }
+
   .my-md-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -12224,6 +12532,10 @@ textarea.form-control-lg {
 
   .mt-md-16 {
     margin-top: 0.75rem !important;
+  }
+
+  .mt-md-17 {
+    margin-top: 7.3125rem !important;
   }
 
   .mt-md-auto {
@@ -12298,6 +12610,10 @@ textarea.form-control-lg {
     margin-right: 0.75rem !important;
   }
 
+  .me-md-17 {
+    margin-right: 7.3125rem !important;
+  }
+
   .me-md-auto {
     margin-right: auto !important;
   }
@@ -12368,6 +12684,10 @@ textarea.form-control-lg {
 
   .mb-md-16 {
     margin-bottom: 0.75rem !important;
+  }
+
+  .mb-md-17 {
+    margin-bottom: 7.3125rem !important;
   }
 
   .mb-md-auto {
@@ -12442,6 +12762,10 @@ textarea.form-control-lg {
     margin-left: 0.75rem !important;
   }
 
+  .ms-md-17 {
+    margin-left: 7.3125rem !important;
+  }
+
   .ms-md-auto {
     margin-left: auto !important;
   }
@@ -12512,6 +12836,10 @@ textarea.form-control-lg {
 
   .p-md-16 {
     padding: 0.75rem !important;
+  }
+
+  .p-md-17 {
+    padding: 7.3125rem !important;
   }
 
   .px-md-0 {
@@ -12599,6 +12927,11 @@ textarea.form-control-lg {
     padding-left: 0.75rem !important;
   }
 
+  .px-md-17 {
+    padding-right: 7.3125rem !important;
+    padding-left: 7.3125rem !important;
+  }
+
   .py-md-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -12684,6 +13017,11 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .py-md-17 {
+    padding-top: 7.3125rem !important;
+    padding-bottom: 7.3125rem !important;
+  }
+
   .pt-md-0 {
     padding-top: 0 !important;
   }
@@ -12750,6 +13088,10 @@ textarea.form-control-lg {
 
   .pt-md-16 {
     padding-top: 0.75rem !important;
+  }
+
+  .pt-md-17 {
+    padding-top: 7.3125rem !important;
   }
 
   .pe-md-0 {
@@ -12820,6 +13162,10 @@ textarea.form-control-lg {
     padding-right: 0.75rem !important;
   }
 
+  .pe-md-17 {
+    padding-right: 7.3125rem !important;
+  }
+
   .pb-md-0 {
     padding-bottom: 0 !important;
   }
@@ -12888,6 +13234,10 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .pb-md-17 {
+    padding-bottom: 7.3125rem !important;
+  }
+
   .ps-md-0 {
     padding-left: 0 !important;
   }
@@ -12954,6 +13304,10 @@ textarea.form-control-lg {
 
   .ps-md-16 {
     padding-left: 0.75rem !important;
+  }
+
+  .ps-md-17 {
+    padding-left: 7.3125rem !important;
   }
 
   .text-md-start {
@@ -13163,6 +13517,10 @@ textarea.form-control-lg {
 
   .gap-lg-16 {
     gap: 0.75rem !important;
+  }
+
+  .gap-lg-17 {
+    gap: 7.3125rem !important;
   }
 
   .justify-content-lg-start {
@@ -13409,6 +13767,10 @@ textarea.form-control-lg {
     margin: 0.75rem !important;
   }
 
+  .m-lg-17 {
+    margin: 7.3125rem !important;
+  }
+
   .m-lg-auto {
     margin: auto !important;
   }
@@ -13496,6 +13858,11 @@ textarea.form-control-lg {
   .mx-lg-16 {
     margin-right: 0.75rem !important;
     margin-left: 0.75rem !important;
+  }
+
+  .mx-lg-17 {
+    margin-right: 7.3125rem !important;
+    margin-left: 7.3125rem !important;
   }
 
   .mx-lg-auto {
@@ -13588,6 +13955,11 @@ textarea.form-control-lg {
     margin-bottom: 0.75rem !important;
   }
 
+  .my-lg-17 {
+    margin-top: 7.3125rem !important;
+    margin-bottom: 7.3125rem !important;
+  }
+
   .my-lg-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -13659,6 +14031,10 @@ textarea.form-control-lg {
 
   .mt-lg-16 {
     margin-top: 0.75rem !important;
+  }
+
+  .mt-lg-17 {
+    margin-top: 7.3125rem !important;
   }
 
   .mt-lg-auto {
@@ -13733,6 +14109,10 @@ textarea.form-control-lg {
     margin-right: 0.75rem !important;
   }
 
+  .me-lg-17 {
+    margin-right: 7.3125rem !important;
+  }
+
   .me-lg-auto {
     margin-right: auto !important;
   }
@@ -13803,6 +14183,10 @@ textarea.form-control-lg {
 
   .mb-lg-16 {
     margin-bottom: 0.75rem !important;
+  }
+
+  .mb-lg-17 {
+    margin-bottom: 7.3125rem !important;
   }
 
   .mb-lg-auto {
@@ -13877,6 +14261,10 @@ textarea.form-control-lg {
     margin-left: 0.75rem !important;
   }
 
+  .ms-lg-17 {
+    margin-left: 7.3125rem !important;
+  }
+
   .ms-lg-auto {
     margin-left: auto !important;
   }
@@ -13947,6 +14335,10 @@ textarea.form-control-lg {
 
   .p-lg-16 {
     padding: 0.75rem !important;
+  }
+
+  .p-lg-17 {
+    padding: 7.3125rem !important;
   }
 
   .px-lg-0 {
@@ -14034,6 +14426,11 @@ textarea.form-control-lg {
     padding-left: 0.75rem !important;
   }
 
+  .px-lg-17 {
+    padding-right: 7.3125rem !important;
+    padding-left: 7.3125rem !important;
+  }
+
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -14119,6 +14516,11 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .py-lg-17 {
+    padding-top: 7.3125rem !important;
+    padding-bottom: 7.3125rem !important;
+  }
+
   .pt-lg-0 {
     padding-top: 0 !important;
   }
@@ -14185,6 +14587,10 @@ textarea.form-control-lg {
 
   .pt-lg-16 {
     padding-top: 0.75rem !important;
+  }
+
+  .pt-lg-17 {
+    padding-top: 7.3125rem !important;
   }
 
   .pe-lg-0 {
@@ -14255,6 +14661,10 @@ textarea.form-control-lg {
     padding-right: 0.75rem !important;
   }
 
+  .pe-lg-17 {
+    padding-right: 7.3125rem !important;
+  }
+
   .pb-lg-0 {
     padding-bottom: 0 !important;
   }
@@ -14323,6 +14733,10 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .pb-lg-17 {
+    padding-bottom: 7.3125rem !important;
+  }
+
   .ps-lg-0 {
     padding-left: 0 !important;
   }
@@ -14389,6 +14803,10 @@ textarea.form-control-lg {
 
   .ps-lg-16 {
     padding-left: 0.75rem !important;
+  }
+
+  .ps-lg-17 {
+    padding-left: 7.3125rem !important;
   }
 
   .text-lg-start {
@@ -14598,6 +15016,10 @@ textarea.form-control-lg {
 
   .gap-xl-16 {
     gap: 0.75rem !important;
+  }
+
+  .gap-xl-17 {
+    gap: 7.3125rem !important;
   }
 
   .justify-content-xl-start {
@@ -14844,6 +15266,10 @@ textarea.form-control-lg {
     margin: 0.75rem !important;
   }
 
+  .m-xl-17 {
+    margin: 7.3125rem !important;
+  }
+
   .m-xl-auto {
     margin: auto !important;
   }
@@ -14931,6 +15357,11 @@ textarea.form-control-lg {
   .mx-xl-16 {
     margin-right: 0.75rem !important;
     margin-left: 0.75rem !important;
+  }
+
+  .mx-xl-17 {
+    margin-right: 7.3125rem !important;
+    margin-left: 7.3125rem !important;
   }
 
   .mx-xl-auto {
@@ -15023,6 +15454,11 @@ textarea.form-control-lg {
     margin-bottom: 0.75rem !important;
   }
 
+  .my-xl-17 {
+    margin-top: 7.3125rem !important;
+    margin-bottom: 7.3125rem !important;
+  }
+
   .my-xl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -15094,6 +15530,10 @@ textarea.form-control-lg {
 
   .mt-xl-16 {
     margin-top: 0.75rem !important;
+  }
+
+  .mt-xl-17 {
+    margin-top: 7.3125rem !important;
   }
 
   .mt-xl-auto {
@@ -15168,6 +15608,10 @@ textarea.form-control-lg {
     margin-right: 0.75rem !important;
   }
 
+  .me-xl-17 {
+    margin-right: 7.3125rem !important;
+  }
+
   .me-xl-auto {
     margin-right: auto !important;
   }
@@ -15238,6 +15682,10 @@ textarea.form-control-lg {
 
   .mb-xl-16 {
     margin-bottom: 0.75rem !important;
+  }
+
+  .mb-xl-17 {
+    margin-bottom: 7.3125rem !important;
   }
 
   .mb-xl-auto {
@@ -15312,6 +15760,10 @@ textarea.form-control-lg {
     margin-left: 0.75rem !important;
   }
 
+  .ms-xl-17 {
+    margin-left: 7.3125rem !important;
+  }
+
   .ms-xl-auto {
     margin-left: auto !important;
   }
@@ -15382,6 +15834,10 @@ textarea.form-control-lg {
 
   .p-xl-16 {
     padding: 0.75rem !important;
+  }
+
+  .p-xl-17 {
+    padding: 7.3125rem !important;
   }
 
   .px-xl-0 {
@@ -15469,6 +15925,11 @@ textarea.form-control-lg {
     padding-left: 0.75rem !important;
   }
 
+  .px-xl-17 {
+    padding-right: 7.3125rem !important;
+    padding-left: 7.3125rem !important;
+  }
+
   .py-xl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -15554,6 +16015,11 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .py-xl-17 {
+    padding-top: 7.3125rem !important;
+    padding-bottom: 7.3125rem !important;
+  }
+
   .pt-xl-0 {
     padding-top: 0 !important;
   }
@@ -15620,6 +16086,10 @@ textarea.form-control-lg {
 
   .pt-xl-16 {
     padding-top: 0.75rem !important;
+  }
+
+  .pt-xl-17 {
+    padding-top: 7.3125rem !important;
   }
 
   .pe-xl-0 {
@@ -15690,6 +16160,10 @@ textarea.form-control-lg {
     padding-right: 0.75rem !important;
   }
 
+  .pe-xl-17 {
+    padding-right: 7.3125rem !important;
+  }
+
   .pb-xl-0 {
     padding-bottom: 0 !important;
   }
@@ -15758,6 +16232,10 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .pb-xl-17 {
+    padding-bottom: 7.3125rem !important;
+  }
+
   .ps-xl-0 {
     padding-left: 0 !important;
   }
@@ -15824,6 +16302,10 @@ textarea.form-control-lg {
 
   .ps-xl-16 {
     padding-left: 0.75rem !important;
+  }
+
+  .ps-xl-17 {
+    padding-left: 7.3125rem !important;
   }
 
   .text-xl-start {
@@ -16033,6 +16515,10 @@ textarea.form-control-lg {
 
   .gap-xxl-16 {
     gap: 0.75rem !important;
+  }
+
+  .gap-xxl-17 {
+    gap: 7.3125rem !important;
   }
 
   .justify-content-xxl-start {
@@ -16279,6 +16765,10 @@ textarea.form-control-lg {
     margin: 0.75rem !important;
   }
 
+  .m-xxl-17 {
+    margin: 7.3125rem !important;
+  }
+
   .m-xxl-auto {
     margin: auto !important;
   }
@@ -16366,6 +16856,11 @@ textarea.form-control-lg {
   .mx-xxl-16 {
     margin-right: 0.75rem !important;
     margin-left: 0.75rem !important;
+  }
+
+  .mx-xxl-17 {
+    margin-right: 7.3125rem !important;
+    margin-left: 7.3125rem !important;
   }
 
   .mx-xxl-auto {
@@ -16458,6 +16953,11 @@ textarea.form-control-lg {
     margin-bottom: 0.75rem !important;
   }
 
+  .my-xxl-17 {
+    margin-top: 7.3125rem !important;
+    margin-bottom: 7.3125rem !important;
+  }
+
   .my-xxl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -16529,6 +17029,10 @@ textarea.form-control-lg {
 
   .mt-xxl-16 {
     margin-top: 0.75rem !important;
+  }
+
+  .mt-xxl-17 {
+    margin-top: 7.3125rem !important;
   }
 
   .mt-xxl-auto {
@@ -16603,6 +17107,10 @@ textarea.form-control-lg {
     margin-right: 0.75rem !important;
   }
 
+  .me-xxl-17 {
+    margin-right: 7.3125rem !important;
+  }
+
   .me-xxl-auto {
     margin-right: auto !important;
   }
@@ -16673,6 +17181,10 @@ textarea.form-control-lg {
 
   .mb-xxl-16 {
     margin-bottom: 0.75rem !important;
+  }
+
+  .mb-xxl-17 {
+    margin-bottom: 7.3125rem !important;
   }
 
   .mb-xxl-auto {
@@ -16747,6 +17259,10 @@ textarea.form-control-lg {
     margin-left: 0.75rem !important;
   }
 
+  .ms-xxl-17 {
+    margin-left: 7.3125rem !important;
+  }
+
   .ms-xxl-auto {
     margin-left: auto !important;
   }
@@ -16817,6 +17333,10 @@ textarea.form-control-lg {
 
   .p-xxl-16 {
     padding: 0.75rem !important;
+  }
+
+  .p-xxl-17 {
+    padding: 7.3125rem !important;
   }
 
   .px-xxl-0 {
@@ -16904,6 +17424,11 @@ textarea.form-control-lg {
     padding-left: 0.75rem !important;
   }
 
+  .px-xxl-17 {
+    padding-right: 7.3125rem !important;
+    padding-left: 7.3125rem !important;
+  }
+
   .py-xxl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -16989,6 +17514,11 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .py-xxl-17 {
+    padding-top: 7.3125rem !important;
+    padding-bottom: 7.3125rem !important;
+  }
+
   .pt-xxl-0 {
     padding-top: 0 !important;
   }
@@ -17055,6 +17585,10 @@ textarea.form-control-lg {
 
   .pt-xxl-16 {
     padding-top: 0.75rem !important;
+  }
+
+  .pt-xxl-17 {
+    padding-top: 7.3125rem !important;
   }
 
   .pe-xxl-0 {
@@ -17125,6 +17659,10 @@ textarea.form-control-lg {
     padding-right: 0.75rem !important;
   }
 
+  .pe-xxl-17 {
+    padding-right: 7.3125rem !important;
+  }
+
   .pb-xxl-0 {
     padding-bottom: 0 !important;
   }
@@ -17193,6 +17731,10 @@ textarea.form-control-lg {
     padding-bottom: 0.75rem !important;
   }
 
+  .pb-xxl-17 {
+    padding-bottom: 7.3125rem !important;
+  }
+
   .ps-xxl-0 {
     padding-left: 0 !important;
   }
@@ -17259,6 +17801,10 @@ textarea.form-control-lg {
 
   .ps-xxl-16 {
     padding-left: 0.75rem !important;
+  }
+
+  .ps-xxl-17 {
+    padding-left: 7.3125rem !important;
   }
 
   .text-xxl-start {
@@ -17359,6 +17905,8 @@ textarea.form-control-lg {
 .object-fit-cover {
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: right bottom;
+     object-position: right bottom;
 }
 
 /*  工具箱  */
@@ -17549,9 +18097,42 @@ p {
   }
 }
 .buySidebar {
-  padding: 32px 0 24px 32px;
+  top: 84px;
+  right: 0;
+  width: 50%;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+@media (max-width: 768px) {
+  .buySidebar {
+    width: 75%;
+  }
+}
+@media (max-width: 576px) {
+  .buySidebar {
+    width: 85%;
+  }
+}
+@media (max-width: 375px) {
+  .buySidebar {
+    width: 100%;
+  }
 }
 
+.cardInputList {
+  width: 20%;
+}
+@media (max-width: 375px) {
+  .cardInputList {
+    width: 28%;
+  }
+}
+
+@media (max-width: 768px) {
+  .buySidebar_word {
+    font-size: 1.5rem !important;
+  }
+}
 /*-- components --*/
 .subscribe_bgPic {
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");

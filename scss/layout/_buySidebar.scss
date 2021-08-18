@@ -1,3 +1,31 @@
 .buySidebar {
-  padding:32px 0 24px 32px;
+  top: 84px;
+  right: 0;
+  width: 50%;
+  -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+      transform: translateX(100%);
+  @include mobile{
+    width: 75%;
+  }
+  @include mobile-m{
+    width: 85%;
+  }
+  @include mobile-s{
+    width: 100%;
+  }
+}
+
+.cardInputList{
+  width: 20%;
+  @include mobile-s{
+    width: 28%;
+  }
+}
+
+
+@include mobile{
+  .buySidebar_word {
+    font-size: $h4-font-size!important;
+  }
 }
