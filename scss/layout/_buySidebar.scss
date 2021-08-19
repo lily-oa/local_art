@@ -1,7 +1,7 @@
 .buySidebar {
   top: 84px;
   right: 0;
-  width: 40%;
+  width: 50%;
   @include pad{
     width: 50%;
   }
@@ -23,7 +23,7 @@
 }
 
 .cardInputList{
-  width: 20%;
+  width: 40%;
   @include mobile-m{
     width: 28%;
   }
