@@ -17463,6 +17463,11 @@ textarea.form-control-lg {
      object-fit: cover;
   -o-object-position: right bottom;
      object-position: right bottom;
+  height: inherit;
+}
+
+.lh-0 {
+  line-height: 0;
 }
 
 /*  工具箱  */
@@ -18146,4 +18151,54 @@ p {
 }
 .text-indent {
   text-indent: 32px;
+}
+
+.checkOrder_topLine {
+  border-top: 1px solid #707070;
+}
+
+.ckeckOrder_lineBar {
+  border-top: 2px solid #E31277;
+}
+.ckeckOrder_lineBar .ckeckOrder_lineBarItem {
+  padding-top: 6px;
+}
+.ckeckOrder_lineBar .active::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #E31277;
+  border: 1px solid #E31277;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  top: -5px;
+  right: 50%;
+}
+
+.ckeckOrder_lineBarItem {
+  position: relative;
+}
+.ckeckOrder_lineBarItem::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: white;
+  border: 1px solid #E31277;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  top: -5px;
+  right: 50%;
+}
+
+@media (max-width: 768px) {
+  .checkCard_item {
+    font-size: 1.75rem !important;
+  }
+}
+@media (max-width: 375px) {
+  .checkCard_item {
+    font-size: 1rem !important;
+  }
 }

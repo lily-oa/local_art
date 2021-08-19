@@ -9,4 +9,9 @@
 .object-fit-cover {
   object-fit: cover;
   object-position: right bottom; //定位在正中央
+  height: inherit;
+}
+
+.lh-0{
+  line-height: 0;
 }
