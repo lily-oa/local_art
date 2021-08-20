@@ -18221,6 +18221,41 @@ p {
     max-width: 940px;
   }
 }
+.ckeckOrder_lineBar {
+  border-top: 2px solid #E31277;
+}
+.ckeckOrder_lineBar .ckeckOrder_lineBarItem {
+  padding-top: 6px;
+}
+.ckeckOrder_lineBar .active::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #E31277;
+  border: 1px solid #E31277;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  top: -5px;
+  right: 50%;
+}
+
+.ckeckOrder_lineBarItem {
+  position: relative;
+}
+.ckeckOrder_lineBarItem::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: white;
+  border: 1px solid #E31277;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  top: -5px;
+  right: 50%;
+}
+
 /*-- pages --*/
 /*-- banner --*/
 .banner {
@@ -18621,41 +18656,6 @@ p {
 
 .checkOrder_topLine {
   border-top: 1px solid #707070;
-}
-
-.ckeckOrder_lineBar {
-  border-top: 2px solid #E31277;
-}
-.ckeckOrder_lineBar .ckeckOrder_lineBarItem {
-  padding-top: 6px;
-}
-.ckeckOrder_lineBar .active::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: #E31277;
-  border: 1px solid #E31277;
-  border-radius: 50%;
-  display: inline;
-  position: absolute;
-  top: -5px;
-  right: 50%;
-}
-
-.ckeckOrder_lineBarItem {
-  position: relative;
-}
-.ckeckOrder_lineBarItem::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: white;
-  border: 1px solid #E31277;
-  border-radius: 50%;
-  display: inline;
-  position: absolute;
-  top: -5px;
-  right: 50%;
 }
 
 .checkCard_wrapper {
