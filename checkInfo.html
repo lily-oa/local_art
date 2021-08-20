@@ -53,8 +53,8 @@
       <div class="row pt-11 pb-11 pb-lg-7">
         <div class="col-lg-8">
           <ul class="ckeckOrder_lineBar d-flex justify-content-between">
-            <li class="ckeckOrder_lineBarItem fw-bolder active">確認訂單</li>
-            <li class="ckeckOrder_lineBarItem">填寫訂購資訊</li>
+            <li class="ckeckOrder_lineBarItem active">確認訂單</li>
+            <li class="ckeckOrder_lineBarItem fw-bolder active">填寫訂購資訊</li>
             <li class="ckeckOrder_lineBarItem">填寫訂購資訊</li>
             <li class="ckeckOrder_lineBarItem ">完成訂購</li>
           </ul>
@@ -63,6 +63,50 @@
     </div>
   </div>
 
+  <!--form 填寫訂單------------------------------------------------------------------------------------------------start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 order-lg-last d-lg-flex flex-lg-nowrap flex-lg-column">
+        <h1 class="fs-5 mb-3 mb-lg-11">訂購人資訊</h1>
+        <form class="flex-lg-grow-1 mb-5">
+          <div class="mb-11">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          </div>
+          <div class="mb-11">
+            <label for="name" class="form-label">姓名</label>
+            <input type="text" class="form-control" id="name" placeholder="請輸入姓名">
+          </div>
+          <div class="mb-11">
+            <label for="tel" class="form-label">聯絡電話</label>
+            <input type="tel" class="form-control" id="tel" placeholder="請輸入電話">
+          </div>
+          <div>
+            <label for="code" class="form-label">優惠碼</label>
+            <input type="text" class="form-control" id="code" placeholder="TG87526">
+          </div>
+          <p class="fs-10 text-primary text-end">優惠碼已生效</p>
+        </form>
+        <div class="mb-4 mb-lg-16">
+          <div class="d-flex justify-content-between align-items-center mb-1 mb-lg-2">
+            <p class="fw-bold">小計:</p>
+            <p>NT$1050</p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-1 mb-lg-2">
+            <p class="fw-bold">折扣:</p>
+            <p>-NT$50</p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-1 mb-lg-2">
+            <p class="fw-bold fs-5">總金額</p>
+            <p class="fw-bolder fs-5">NT$1000</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-8 d-lg-flex flex-lg-column"></div>
+    </div>
+  </div>
+  <!-----------------------------------------------------------------------------------------------end-->
   <!--訂單卡片區-->
   <div class="container">
     <div class="row">
@@ -198,18 +242,15 @@
         </div>
         <!---->
       </div>
-      <!--form 填寫訂單------------------------------------------------------------------------------------------------start-->
       <div class="col-lg-4 order-lg-last d-lg-flex flex-lg-nowrap flex-lg-column ">
-        <form class="flex-lg-grow-1">
-          <h1>還沒開始做</h1>
-        </form>
+        <form class="flex-lg-grow-1"></form>
         <!--小計 pc版-->
         <div class="d-none d-lg-block">
           <div class="d-flex fw-bold fs-5 justify-content-between align-items-center mb-3">
             <p>小計:</p>
-          <p>
-            <span>NT$1050</span>
-          </p>
+            <p>
+              <span>NT$1050</span>
+            </p>
           </div>
           <a href="#" class="btn btn-lg btn-secondary w-100 text-white px-auto">下一步</a>
         </div>
@@ -221,9 +262,8 @@
   <!--checkOrder_footer-->
   <div class="container">
     <div class="row gx-4 gx-lg-7 mt-13">
-      <div class="col-6 col-lg-3 d-none">
+      <div class="col-6 col-lg-3 d-none"></div>
 
-      </div>
       <!--小計 md版-->
       <div class="col-6 offset-6">
         <div class="d-flex fw-bold fs-5 justify-content-between align-items-center mb-9 mb-lg-16 d-lg-none">
@@ -236,7 +276,7 @@
       </div>
     </div>
   </div>
-  <!-----------------------------------------------------------------------------------------------end-->
+
 
   <!-----------------------------------------buySidebar-->
   <div class="buySidebar offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight"
