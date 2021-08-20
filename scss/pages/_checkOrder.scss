@@ -42,9 +42,18 @@
   }
 }
 
+.checkCard_wrapper {
+  min-height: 0;
+}
+@include media-breakpoint-up(lg) {
+  .checkCard_wrap{
+    min-height: 600px;
+  }
+}
+
 @include mobile{
   .checkCard_item {
-    font-size: $h7-font-size!important;
+    font-size: $h4-font-size!important;
   }
 }
 

@@ -66,7 +66,7 @@
   <!--訂單卡片區-->
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-8 checkCard_wrap">
         <!--1-->
         <div class="checkCard card mb-11 border-0">
           <div class="row gx-4 gx-lg-7">
@@ -196,14 +196,40 @@
             </div>
           </div>
         </div>
+        <!---->
+      </div>
+      <div class="col-lg-4 order-lg-last d-lg-flex flex-lg-nowrap flex-lg-column ">
+        <form class="flex-lg-grow-1"></form>
+        <!--小計 pc版-->
+        <div class="d-none d-lg-block">
+          <div class="d-flex fw-bold fs-5 justify-content-between align-items-center mb-3">
+            <p>小計:</p>
+          <p>
+            <span>NT$1050</span>
+          </p>
+          </div>
+          <a href="#" class="btn btn-lg btn-secondary w-100 text-white px-auto">下一步</a>
+        </div>
       </div>
     </div>
   </div>
 
   <!--checkOrder_footer-->
   <div class="container">
-    <div class="row">
-      
+    <div class="row gx-4 gx-lg-7 mt-13">
+      <div class="col-6 col-lg-3 d-none">
+
+      </div>
+      <!--小計 md版-->
+      <div class="col-6 offset-6">
+        <div class="d-flex fw-bold fs-5 justify-content-between align-items-center mb-9 mb-lg-16 d-lg-none">
+          <p>小計:</p>
+          <p>
+            <span>NT$1050</span>
+          </p>
+        </div>
+        <a href="#" class="btn btn-lg btn-secondary w-100 text-white px-auto d-lg-none mb-13">下一步</a>
+      </div>
     </div>
   </div>
   <!-----------------------------------------------------------------------------------------------end-->
