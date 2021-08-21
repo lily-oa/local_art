@@ -18677,3 +18677,9 @@ p {
     font-size: 1rem !important;
   }
 }
+.spacilBtn {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  padding: 6px 66px;
+}
