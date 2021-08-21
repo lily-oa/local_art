@@ -15,3 +15,14 @@
 .lh-0{
   line-height: 0;
 }
+
+//通用hover
+.useHover_1{
+  &:hover {
+    color: $secondary !important;
+    border-bottom: 1px solid $secondary;
+  }
+}
+.useHover_1{
+  border-bottom: 1px solid transparent;
+}

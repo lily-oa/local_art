@@ -17914,6 +17914,15 @@ textarea.form-control-lg {
   line-height: 0;
 }
 
+.useHover_1:hover {
+  color: #E31277 !important;
+  border-bottom: 1px solid #E31277;
+}
+
+.useHover_1 {
+  border-bottom: 1px solid transparent;
+}
+
 /*  工具箱  */
 /*-- config--*/
 /*  全域  */
