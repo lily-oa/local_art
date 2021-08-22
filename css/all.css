@@ -18875,97 +18875,32 @@ p {
 }
 
 /*-- layout --*/
-.nav_icon {
-  width: 24px;
-  height: 24px;
+.subscribe_bgPic {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 400px;
 }
 
-.nav_badge {
-  width: 22px;
-  height: 18px;
-  font-size: 12px;
+.subscribe_title {
+  line-height: 1.5;
+}
+
+.subscribe_mail {
+  width: 350px;
+}
+
+.subscribe_btn {
+  background: #E31277;
+}
+.subscribe_btn:hover {
+  background: #630834;
+}
+.subscribe_btn .subscribe_link {
+  padding: 8px 40px;
 }
 
 @media (max-width: 992px) {
-  nav .container {
+  .container {
     max-width: 940px;
-  }
-}
-@media (max-width: 768px) {
-  .nav_menu {
-    margin-right: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .badge {
-    position: initial !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar_title {
-    font-size: 1.375rem;
-  }
-}
-@media (max-width: 375px) {
-  nav .navbar .navbar_title {
-    padding-right: 0;
-  }
-  nav .navbar .nav_menu {
-    margin-right: 0;
-  }
-}
-.nav_hover:hover {
-  color: #190014CC !important;
-}
-
-.navbarDown_detail:hover {
-  color: #630834 !important;
-}
-
-@media (max-width: 576px) {
-  .nav-scroller {
-    height: 2.75rem;
-    overflow-y: hidden;
-    /* 隱藏下方捲軸 */
-    border-bottom: 1px solid #707070;
-    /*下底線*/
-  }
-
-  .nav-scroller .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    /* 隱藏下方捲軸 */
-    overflow-x: auto;
-    white-space: nowrap;
-    /* 決定如何處理元素內的空白字元 */
-  }
-}
-@media (max-width: 375px) {
-  .nav-scroller {
-    height: 2.75rem;
-    overflow-y: hidden;
-    /* 隱藏下方捲軸 */
-    border-bottom: 1px solid #707070;
-    /*下底線*/
-  }
-
-  .nav-scroller .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    /* 隱藏下方捲軸 */
-    overflow-x: auto;
-    white-space: nowrap;
-    /* 決定如何處理元素內的空白字元 */
   }
 }
 .footer_content {
@@ -19098,34 +19033,6 @@ p {
 }
 
 /*-- components --*/
-.subscribe_bgPic {
-  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
-  height: 400px;
-}
-
-.subscribe_title {
-  line-height: 1.5;
-}
-
-.subscribe_mail {
-  width: 350px;
-}
-
-.subscribe_btn {
-  background: #E31277;
-}
-.subscribe_btn:hover {
-  background: #630834;
-}
-.subscribe_btn .subscribe_link {
-  padding: 8px 40px;
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 940px;
-  }
-}
 .ckeckOrder_lineBar {
   border-top: 2px solid #E31277;
 }
@@ -19161,6 +19068,99 @@ p {
   right: 50%;
 }
 
+.nav_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav_badge {
+  width: 22px;
+  height: 18px;
+  font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  nav .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .nav_menu {
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .badge {
+    position: initial !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar_title {
+    font-size: 1.375rem;
+  }
+}
+@media (max-width: 375px) {
+  nav .navbar .navbar_title {
+    padding-right: 0;
+  }
+  nav .navbar .nav_menu {
+    margin-right: 0;
+  }
+}
+.nav_hover:hover {
+  color: #190014CC !important;
+}
+
+.navbarDown_detail:hover {
+  color: #630834 !important;
+}
+
+@media (max-width: 576px) {
+  .nav-scroller {
+    height: 2.75rem;
+    overflow-y: hidden;
+    /* 隱藏下方捲軸 */
+    border-bottom: 1px solid #707070;
+    /*下底線*/
+  }
+
+  .nav-scroller .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    /* 隱藏下方捲軸 */
+    overflow-x: auto;
+    white-space: nowrap;
+    /* 決定如何處理元素內的空白字元 */
+  }
+}
+@media (max-width: 375px) {
+  .nav-scroller {
+    height: 2.75rem;
+    overflow-y: hidden;
+    /* 隱藏下方捲軸 */
+    border-bottom: 1px solid #707070;
+    /*下底線*/
+  }
+
+  .nav-scroller .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    /* 隱藏下方捲軸 */
+    overflow-x: auto;
+    white-space: nowrap;
+    /* 決定如何處理元素內的空白字元 */
+  }
+}
 /*-- pages --*/
 /*-- banner --*/
 .banner {

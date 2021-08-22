@@ -9,14 +9,13 @@
 /*-- config--*/
 @import "config/base.scss";
 /*-- layout --*/
-@import "layout/navbar";
-@import "layout/nav-scroller";
-
+@import "layout/subscribe"; //重覆區塊
 @import "layout/footer";
 @import "layout/buySidebar";
 /*-- components --*/
-@import "components/subscribe"; //重覆區塊
 @import "components/timeLine";
+@import "components/navbar";
+@import "components/nav-scroller";
 /*-- pages --*/
 @import "pages/index";
 @import "pages/design";
