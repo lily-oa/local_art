@@ -147,44 +147,20 @@
 /*----------------------------------------*/
 // section lick 輪播
 //swiper
-.lick_pic{
-  height: 500px;
-  width: 100%;
-  object-fit: cover;
-}
-// pad(992)
-@include pad{
-  .container{
-    max-width: 940px;
-    .lick_pic{
-      height: 400px;
-    }
-  }
-}
-
-// mobile(768)
-@include mobile{
-  .container{
-    max-width: 100%;
-    .lick_title{
-      margin-bottom: 8px !important;
-    }
-    .lick_item{
-      margin-bottom: 16px;
-    }
-  }
-}
-
-// swiper
 .swiper-container {
   width: 100%;
   height: 100%;
 }
 
+.swiper-slide {
+/*   width: auto !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
+.card-img-top {
+  width: 350px;
   height: 350px;
   object-fit: cover;
 }
