@@ -19224,7 +19224,11 @@ p {
   }
   .container .card_pic {
     width: 100%;
-    height: auto;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: right bottom;
+       object-position: right bottom;
   }
   .container .ticket {
     padding: 0 !important;
