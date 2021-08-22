@@ -19036,7 +19036,6 @@ p {
 /*-- banner --*/
 .banner {
   height: 480px;
-  width: calc(100);
   background-size: cover;
   padding: 0;
   margin: 0;
