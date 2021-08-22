@@ -4,8 +4,8 @@
   background-size: cover;
   padding: 0;
   margin: 0;
-  &_btn{
-    padding: 10px 48px;
+  &_btn {
+    width: 20%!important;
   }
 }
 
@@ -17,13 +17,12 @@
 }
 
 // mobile
-@include mobile{
+@include mobile-m{
   .container{
     min-width: 100%;
-    .banner_content{
-      padding-top: 254px;
-    }
+  }
+  .banner_btn{
+    width: 50% !important;
   }
 }
-
 /*----------------------------------------*/

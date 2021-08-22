@@ -19041,7 +19041,7 @@ p {
   margin: 0;
 }
 .banner_btn {
-  padding: 10px 48px;
+  width: 20% !important;
 }
 
 @media (max-width: 992px) {
@@ -19049,12 +19049,13 @@ p {
     max-width: 940px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     min-width: 100%;
   }
-  .container .banner_content {
-    padding-top: 254px;
+
+  .banner_btn {
+    width: 50% !important;
   }
 }
 /*----------------------------------------*/
