@@ -1,52 +1,10 @@
-// navbar
-.nav_icon {
-  width: 24px;
-  height: 24px;
-}
-
-.nav_badge {
-  width: 22px;
-  height: 18px;
-  font-size: 12px;
-}
-
-// pad (992)
-@include pad {
-  nav .container {
-    max-width: 940px;
+//navbar
+@include media-breakpoint-up(lg) {
+  .position-lg-absolute{
+    position: absolute;
   }
-}
-
-// mobile (768)
-.nav_menu {
-  @include mobile {
-    margin-right: 24px;
-  }
-}
-
-.badge {
-  @include mobile {
-    position: initial !important;
-  }
-}
-
-@include mobile {
-  .navbar_title {
-    font-size: $h9-font-size;
-  }
-}
-
-// mobile-s (375)
-@include mobile-s {
-  nav {
-    .navbar {
-      .navbar_title {
-        padding-right: 0;
-      }
-      .nav_menu {
-        margin-right: 0;
-      }
-    }
+  .translate-lg-middle{
+    transform: translate(-50%, -50%);
   }
 }
 
