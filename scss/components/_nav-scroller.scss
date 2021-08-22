@@ -3,6 +3,21 @@
     color: $primary !important;
 }
 
+// mobile-mx(767)
+@include mobile-mx{
+  .nav-scroller{
+    height: 2.75rem;        
+    overflow-y: hidden;     /* 隱藏下方捲軸 */
+    border-bottom: 1px solid $wordColor_1;  /*下底線*/
+  }
+  .nav-scroller .nav{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;  /* 隱藏下方捲軸 */
+    overflow-x: auto;
+    white-space: nowrap;  /* 決定如何處理元素內的空白字元 */
+  }
+}
 
 // mobile-s(576)
 @include mobile-m{
@@ -19,11 +34,6 @@
     white-space: nowrap;  /* 決定如何處理元素內的空白字元 */
   }
 }
-
-
-
-
-
 
 // mobile-s(375)
 @include mobile-s{

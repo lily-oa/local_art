@@ -12,6 +12,14 @@
     @content
   }
 };
+
+// mobile  767
+@mixin mobile-mx {
+  @media(max-width:767px){
+    @content
+  }
+};
+
 // mobile-m 576
 @mixin mobile-m {
   @media(max-width:576px){
