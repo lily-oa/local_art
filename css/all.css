@@ -19033,6 +19033,32 @@ p {
 }
 
 /*-- components --*/
+/*-- banner --*/
+.banner {
+  height: 480px;
+  width: calc(100);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.banner_btn {
+  padding: 10px 48px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    min-width: 100%;
+  }
+  .container .banner_content {
+    padding-top: 254px;
+  }
+}
+/*----------------------------------------*/
 .ckeckOrder_lineBar {
   border-top: 2px solid #E31277;
 }
@@ -19184,32 +19210,6 @@ p {
   }
 }
 /*-- pages --*/
-/*-- banner --*/
-.banner {
-  height: 480px;
-  width: calc(100);
-  background-size: cover;
-  padding: 0;
-  margin: 0;
-}
-.banner_btn {
-  padding: 10px 48px;
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 940px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    min-width: 100%;
-  }
-  .container .banner_content {
-    padding-top: 254px;
-  }
-}
-/*----------------------------------------*/
 .card_pic {
   height: 350px;
   width: 350px;
