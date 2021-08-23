@@ -50,8 +50,8 @@
   }
 }
 
-// mobile-s(375)
-@include mobile-s{
+// mobile-ms(414)
+@include mobile-ms{
   .container{
     .card-body{
       padding: 6px 15px 20px 15px ;
@@ -71,6 +71,7 @@
     }
   }
 }
+
 /*----------------------------------------*/
 // section back
 .back{

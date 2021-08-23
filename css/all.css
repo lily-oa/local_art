@@ -19486,7 +19486,7 @@ p {
             align-items: start;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   .container .card-body {
     padding: 6px 15px 20px 15px;
   }
