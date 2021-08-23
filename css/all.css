@@ -10198,19 +10198,19 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: 2.5rem !important;
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: 2rem !important;
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: 1.75rem !important;
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: 1.5rem !important;
 }
 
 .fs-5 {
@@ -10222,7 +10222,7 @@ textarea.form-control-lg {
 }
 
 .fs-7 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: 1.75rem !important;
 }
 
 .fs-8 {
@@ -10230,7 +10230,7 @@ textarea.form-control-lg {
 }
 
 .fs-9 {
-  font-size: calc(1.2625rem + 0.15vw) !important;
+  font-size: 1.375rem !important;
 }
 
 .fs-10 {
@@ -10246,11 +10246,11 @@ textarea.form-control-lg {
 }
 
 .fs-13 {
-  font-size: calc(1.35rem + 1.2vw) !important;
+  font-size: 2.25rem !important;
 }
 
 .fs-14 {
-  font-size: calc(1.4rem + 1.8vw) !important;
+  font-size: 2.75rem !important;
 }
 
 .fst-italic {
@@ -12191,6 +12191,62 @@ textarea.form-control-lg {
     padding-left: 6rem !important;
   }
 
+  .fs-sm-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-sm-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-sm-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-sm-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-sm-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-sm-6 {
+    font-size: 1rem !important;
+  }
+
+  .fs-sm-7 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-sm-8 {
+    font-size: 0.75rem !important;
+  }
+
+  .fs-sm-9 {
+    font-size: 1.375rem !important;
+  }
+
+  .fs-sm-10 {
+    font-size: 0.875rem !important;
+  }
+
+  .fs-sm-11 {
+    font-size: 1.125rem !important;
+  }
+
+  .fs-sm-12 {
+    font-size: 0.625rem !important;
+  }
+
+  .fs-sm-13 {
+    font-size: 2.25rem !important;
+  }
+
+  .fs-sm-14 {
+    font-size: 2.75rem !important;
+  }
+
   .text-sm-start {
     text-align: left !important;
   }
@@ -13816,6 +13872,62 @@ textarea.form-control-lg {
 
   .ps-md-19 {
     padding-left: 6rem !important;
+  }
+
+  .fs-md-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-md-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-md-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-md-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-md-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-md-6 {
+    font-size: 1rem !important;
+  }
+
+  .fs-md-7 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-md-8 {
+    font-size: 0.75rem !important;
+  }
+
+  .fs-md-9 {
+    font-size: 1.375rem !important;
+  }
+
+  .fs-md-10 {
+    font-size: 0.875rem !important;
+  }
+
+  .fs-md-11 {
+    font-size: 1.125rem !important;
+  }
+
+  .fs-md-12 {
+    font-size: 0.625rem !important;
+  }
+
+  .fs-md-13 {
+    font-size: 2.25rem !important;
+  }
+
+  .fs-md-14 {
+    font-size: 2.75rem !important;
   }
 
   .text-md-start {
@@ -15445,6 +15557,62 @@ textarea.form-control-lg {
     padding-left: 6rem !important;
   }
 
+  .fs-lg-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-lg-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-lg-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-lg-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-lg-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-lg-6 {
+    font-size: 1rem !important;
+  }
+
+  .fs-lg-7 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-lg-8 {
+    font-size: 0.75rem !important;
+  }
+
+  .fs-lg-9 {
+    font-size: 1.375rem !important;
+  }
+
+  .fs-lg-10 {
+    font-size: 0.875rem !important;
+  }
+
+  .fs-lg-11 {
+    font-size: 1.125rem !important;
+  }
+
+  .fs-lg-12 {
+    font-size: 0.625rem !important;
+  }
+
+  .fs-lg-13 {
+    font-size: 2.25rem !important;
+  }
+
+  .fs-lg-14 {
+    font-size: 2.75rem !important;
+  }
+
   .text-lg-start {
     text-align: left !important;
   }
@@ -17070,6 +17238,62 @@ textarea.form-control-lg {
 
   .ps-xl-19 {
     padding-left: 6rem !important;
+  }
+
+  .fs-xl-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-xl-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-xl-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-xl-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-xl-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-xl-6 {
+    font-size: 1rem !important;
+  }
+
+  .fs-xl-7 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-xl-8 {
+    font-size: 0.75rem !important;
+  }
+
+  .fs-xl-9 {
+    font-size: 1.375rem !important;
+  }
+
+  .fs-xl-10 {
+    font-size: 0.875rem !important;
+  }
+
+  .fs-xl-11 {
+    font-size: 1.125rem !important;
+  }
+
+  .fs-xl-12 {
+    font-size: 0.625rem !important;
+  }
+
+  .fs-xl-13 {
+    font-size: 2.25rem !important;
+  }
+
+  .fs-xl-14 {
+    font-size: 2.75rem !important;
   }
 
   .text-xl-start {
@@ -18699,6 +18923,62 @@ textarea.form-control-lg {
     padding-left: 6rem !important;
   }
 
+  .fs-xxl-1 {
+    font-size: 2.5rem !important;
+  }
+
+  .fs-xxl-2 {
+    font-size: 2rem !important;
+  }
+
+  .fs-xxl-3 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-xxl-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-xxl-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-xxl-6 {
+    font-size: 1rem !important;
+  }
+
+  .fs-xxl-7 {
+    font-size: 1.75rem !important;
+  }
+
+  .fs-xxl-8 {
+    font-size: 0.75rem !important;
+  }
+
+  .fs-xxl-9 {
+    font-size: 1.375rem !important;
+  }
+
+  .fs-xxl-10 {
+    font-size: 0.875rem !important;
+  }
+
+  .fs-xxl-11 {
+    font-size: 1.125rem !important;
+  }
+
+  .fs-xxl-12 {
+    font-size: 0.625rem !important;
+  }
+
+  .fs-xxl-13 {
+    font-size: 2.25rem !important;
+  }
+
+  .fs-xxl-14 {
+    font-size: 2.75rem !important;
+  }
+
   .text-xxl-start {
     text-align: left !important;
   }
@@ -18709,39 +18989,6 @@ textarea.form-control-lg {
 
   .text-xxl-center {
     text-align: center !important;
-  }
-}
-@media (min-width: 1200px) {
-  .fs-1 {
-    font-size: 2.5rem !important;
-  }
-
-  .fs-2 {
-    font-size: 2rem !important;
-  }
-
-  .fs-3 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-4 {
-    font-size: 1.5rem !important;
-  }
-
-  .fs-7 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-9 {
-    font-size: 1.375rem !important;
-  }
-
-  .fs-13 {
-    font-size: 2.25rem !important;
-  }
-
-  .fs-14 {
-    font-size: 2.75rem !important;
   }
 }
 @media print {
@@ -18964,7 +19211,7 @@ p {
   }
 }
 .buySidebar {
-  top: 40px;
+  top: 50px;
   right: 0;
   width: 50%;
 }
@@ -18995,7 +19242,7 @@ p {
   }
 }
 .cardInputList {
-  width: 40%;
+  width: 50%;
 }
 @media (max-width: 576px) {
   .cardInputList {
@@ -19004,7 +19251,7 @@ p {
 }
 @media (max-width: 375px) {
   .cardInputList {
-    width: 27%;
+    width: 35%;
   }
 }
 
