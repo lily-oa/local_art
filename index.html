@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <!--Adobe字體-->
   <link rel="stylesheet" href="https://use.typekit.net/gov6iwd.css">
+  <!--aos.css動畫-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--本地全部css 引入檔-->
   <link rel="stylesheet" href="css/all.css">
 </head>
@@ -60,17 +62,17 @@
     <div class="row  h-100 align-items-end align-items-md-center">
       <div class="offset-md-1 col-md-11">
         <!--空一格的設定-->
-        <div class="mb-2">
+        <div class="mb-2" data-aos="fade-up">
           <h1 class="h2">
             <a href="./index.html" class="text-white fw-bolder">
               台北當代藝術展
             </a>
           </h1>
         </div>
-        <div class="mb-3">
+        <div class="mb-3" data-aos="fade-up">
           <p class="text-white fs-5 fw-bolder">01 JUN - 31 OCT</p>
         </div>
-        <li class="d-flex mb-15">
+        <li class="d-flex mb-15" data-aos="fade-up">
           <button type="button" class="banner_btn btn btn-lg btn-secondary me-2">購買票券</button>
           <button type="button" class="banner_btn btn btn-lg btn-outline-light">詳細資訊</button>
         </li>
@@ -236,7 +238,7 @@ aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
         <li>
           <h2 class="ticket_firstTitle fs-2 fw-bolder mb-4 mx-0">熱門特展</h2>
         </li>
-        <li>
+        <li data-aos="fade-up">
           <!--card1-->
           <div class="card mb-11 bg-bgColor_1" style="max-width: 100%;">
             <div class="row g-0">
@@ -272,7 +274,7 @@ aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
           </div>
         </li>
         <!--card2-->
-        <li>
+        <li data-aos="fade-up">
           <div class="card mb-11 bg-bgColor_1" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4 col-lg-4">
@@ -307,7 +309,7 @@ aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
           </div>
         </li>
         <!--card3-->
-        <li>
+        <li data-aos="fade-up">
           <div class="card mb-11 bg-bgColor_1" style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4 col-lg-4">
@@ -349,7 +351,7 @@ aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
   <div class="container">
     <section class="back">
       <h2 class="fs-2 fw-bolder mb-4 mx-0">直播回顧</h2>
-      <div class="back_bgpic bg-cover">
+      <div class="back_bgpic bg-cover" data-aos="fade-up">
         <div class="row">
           <div class="col-5 back_bg2 bg-cover">
             <div class="py-13 ps-4">
@@ -493,7 +495,10 @@ aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
 </div>
 
   <!--subscribe 下方banner-->
-  <section class="subscribe_bgPic bg-cover d-flex align-items-end">
+  <section class="subscribe_bgPic bg-cover d-flex align-items-end" 
+  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
     <div class="container">
       <div class="row mb-3">
         <h2 class="subscribe_title text-white fs-2 fw-bolder mb-3">想收到最新消息嗎？<br> 快訂閱我們！</h2>
@@ -529,6 +534,8 @@ aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
   </script>
   <!--swiper-->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!--aos.css動畫-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <!--本地 js 引入檔-->
   <script src="js/all.js"></script>
 </body>
